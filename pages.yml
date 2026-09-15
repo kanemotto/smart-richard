@@ -1,0 +1,43 @@
+name: Refresh market data and publish SMART RICHARD
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # 6:30 PM Singapore time, Monday to Friday.
+    - cron: "30 10 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  refresh-and-publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Get the dashboard
+        uses: actions/checkout@v6
+
+      - name: Refresh delayed SGX data
+        run: python3 update_scan.py
+
+      - name: Prepare GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Package the website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: "."
+
+      - name: Publish
+        id: deployment
+        uses: actions/deploy-pages@v4
