@@ -1,0 +1,1098 @@
+{
+  "updated": "15 Sep 2026 10:02 PM",
+  "mode": "Delayed market data",
+  "source": "Yahoo Finance delayed market data",
+  "sourceUrl": "https://finance.yahoo.com/",
+  "dataDate": "15 Sep 2026",
+  "market": {
+    "score": 3.2,
+    "signal": "Bearish",
+    "buy": 0,
+    "wait": 2,
+    "avoid": 34
+  },
+  "stocks": [
+    {
+      "symbol": "A17U",
+      "name": "CapitaLand Ascendas REIT",
+      "score": 5,
+      "stars": 1,
+      "signal": "AVOID",
+      "price": 2.32,
+      "changePercent": 0.0,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The price is still below its recent average",
+        "The bigger direction is still weak",
+        "The trend has not turned up yet",
+        "The price lost ground this week",
+        "Buyers are not showing enough strength"
+      ],
+      "bulletSentiments": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "C38U",
+      "name": "CapitaLand Integrated Commercial Trust",
+      "score": 0,
+      "stars": 1,
+      "signal": "AVOID",
+      "price": 2.27,
+      "changePercent": -0.87,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The price is still below its recent average",
+        "The bigger direction is still weak",
+        "The trend has not turned up yet",
+        "The price lost ground this week",
+        "Buyers are not showing enough strength"
+      ],
+      "bulletSentiments": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "9CI",
+      "name": "CapitaLand Investment",
+      "score": 61,
+      "stars": 3,
+      "signal": "WAIT",
+      "price": 2.65,
+      "changePercent": 0.0,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "2.62–2.66",
+      "stop": "2.58",
+      "target": "2.79",
+      "rr": "2.0",
+      "bullets": [
+        "The price is holding above its recent average",
+        "The bigger direction is healthy",
+        "The price improved this week",
+        "The trend has not turned up yet",
+        "The next step up is not confirmed"
+      ],
+      "bulletSentiments": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "eli5": "Some pieces look promising, but the picture is not complete. Keep watching and wait for a clearer move before entering."
+    },
+    {
+      "symbol": "C09",
+      "name": "City Developments",
+      "score": 25,
+      "stars": 1,
+      "signal": "AVOID",
+      "price": 8.05,
+      "changePercent": -1.23,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The bigger direction is healthy",
+        "The trend is getting better",
+        "The price is still below its recent average",
+        "The price lost ground this week",
+        "Buyers are not showing enough strength"
+      ],
+      "bulletSentiments": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "D05",
+      "name": "DBS Group",
+      "score": 53,
+      "stars": 3,
+      "signal": "AVOID",
+      "price": 76.75,
+      "changePercent": -1.17,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The bigger direction is healthy",
+        "The trend is getting better",
+        "The price still has room to move",
+        "The price is still below its recent average",
+        "The price lost ground this week"
+      ],
+      "bulletSentiments": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "D01",
+      "name": "DFI Retail Group",
+      "score": 15,
+      "stars": 1,
+      "signal": "AVOID",
+      "price": 3.56,
+      "changePercent": 0.56,
+      "currency": "USD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The price still has room to move",
+        "The price is still below its recent average",
+        "The bigger direction is still weak",
+        "The trend has not turned up yet",
+        "The price lost ground this week"
+      ],
+      "bulletSentiments": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "J69U",
+      "name": "Frasers Centrepoint Trust",
+      "score": 5,
+      "stars": 1,
+      "signal": "AVOID",
+      "price": 2.09,
+      "changePercent": 0.0,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The price is still below its recent average",
+        "The bigger direction is still weak",
+        "The trend has not turned up yet",
+        "The price lost ground this week",
+        "Buyers are not showing enough strength"
+      ],
+      "bulletSentiments": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "BUOU",
+      "name": "Frasers Logistics & Commercial Trust",
+      "score": 0,
+      "stars": 1,
+      "signal": "AVOID",
+      "price": 0.895,
+      "changePercent": 0.0,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The price is still below its recent average",
+        "The bigger direction is still weak",
+        "The trend has not turned up yet",
+        "The price lost ground this week",
+        "Buyers are not showing enough strength"
+      ],
+      "bulletSentiments": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "G13",
+      "name": "Genting Singapore",
+      "score": 0,
+      "stars": 1,
+      "signal": "AVOID",
+      "price": 0.615,
+      "changePercent": 0.0,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The price is still below its recent average",
+        "The bigger direction is still weak",
+        "The trend has not turned up yet",
+        "The price lost ground this week",
+        "Buyers are not showing enough strength"
+      ],
+      "bulletSentiments": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "H78",
+      "name": "Hongkong Land",
+      "score": 35,
+      "stars": 2,
+      "signal": "AVOID",
+      "price": 8.28,
+      "changePercent": -1.19,
+      "currency": "USD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The bigger direction is healthy",
+        "The price still has room to move",
+        "The price is still below its recent average",
+        "The trend has not turned up yet",
+        "The price lost ground this week"
+      ],
+      "bulletSentiments": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "J36",
+      "name": "Jardine Matheson",
+      "score": 10,
+      "stars": 1,
+      "signal": "AVOID",
+      "price": 56.92,
+      "changePercent": -2.38,
+      "currency": "USD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "More buyers are showing interest",
+        "The price is still below its recent average",
+        "The bigger direction is still weak",
+        "The trend has not turned up yet",
+        "The price lost ground this week"
+      ],
+      "bulletSentiments": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "AJBU",
+      "name": "Keppel DC REIT",
+      "score": 5,
+      "stars": 1,
+      "signal": "AVOID",
+      "price": 2.12,
+      "changePercent": -0.93,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The price is still below its recent average",
+        "The bigger direction is still weak",
+        "The trend has not turned up yet",
+        "The price lost ground this week",
+        "Buyers are not showing enough strength"
+      ],
+      "bulletSentiments": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "BN4",
+      "name": "Keppel",
+      "score": 38,
+      "stars": 2,
+      "signal": "AVOID",
+      "price": 11.2,
+      "changePercent": -1.15,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The bigger direction is healthy",
+        "The trend is getting better",
+        "The price is still below its recent average",
+        "The price lost ground this week",
+        "The price is still below its next ceiling"
+      ],
+      "bulletSentiments": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "ME8U",
+      "name": "Mapletree Industrial Trust",
+      "score": 23,
+      "stars": 1,
+      "signal": "AVOID",
+      "price": 1.9,
+      "changePercent": -0.52,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The trend is getting better",
+        "The price is close to its next step up",
+        "The price is still below its recent average",
+        "The bigger direction is still weak",
+        "The price lost ground this week"
+      ],
+      "bulletSentiments": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "M44U",
+      "name": "Mapletree Logistics Trust",
+      "score": 0,
+      "stars": 1,
+      "signal": "AVOID",
+      "price": 1.11,
+      "changePercent": 0.0,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The price is still below its recent average",
+        "The bigger direction is still weak",
+        "The trend has not turned up yet",
+        "The price lost ground this week",
+        "Buyers are not showing enough strength"
+      ],
+      "bulletSentiments": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "N2IU",
+      "name": "Mapletree Pan Asia Commercial Trust",
+      "score": 0,
+      "stars": 1,
+      "signal": "AVOID",
+      "price": 1.21,
+      "changePercent": 0.83,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The price is still below its recent average",
+        "The bigger direction is still weak",
+        "The trend has not turned up yet",
+        "The price lost ground this week",
+        "Buyers are not showing enough strength"
+      ],
+      "bulletSentiments": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "O39",
+      "name": "OCBC Bank",
+      "score": 43,
+      "stars": 2,
+      "signal": "AVOID",
+      "price": 31.0,
+      "changePercent": -2.67,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The bigger direction is healthy",
+        "The trend is getting better",
+        "More buyers are showing interest",
+        "The price is still below its recent average",
+        "The price lost ground this week"
+      ],
+      "bulletSentiments": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "S58",
+      "name": "SATS",
+      "score": 0,
+      "stars": 1,
+      "signal": "AVOID",
+      "price": 3.86,
+      "changePercent": -0.26,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The price is still below its recent average",
+        "The bigger direction is still weak",
+        "The trend has not turned up yet",
+        "The price lost ground this week",
+        "Buyers are not showing enough strength"
+      ],
+      "bulletSentiments": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "5E2",
+      "name": "Seatrium",
+      "score": 20,
+      "stars": 1,
+      "signal": "AVOID",
+      "price": 2.12,
+      "changePercent": -0.47,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The bigger direction is healthy",
+        "The price is still below its recent average",
+        "The trend has not turned up yet",
+        "The price lost ground this week",
+        "Buyers are not showing enough strength"
+      ],
+      "bulletSentiments": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "U96",
+      "name": "Sembcorp Industries",
+      "score": 33,
+      "stars": 2,
+      "signal": "AVOID",
+      "price": 6.0,
+      "changePercent": -0.83,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The bigger direction is healthy",
+        "The trend is getting better",
+        "The price is still below its recent average",
+        "The price lost ground this week",
+        "Not enough buyers showed up today"
+      ],
+      "bulletSentiments": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "C6L",
+      "name": "Singapore Airlines",
+      "score": 0,
+      "stars": 1,
+      "signal": "AVOID",
+      "price": 6.61,
+      "changePercent": -0.3,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The price is still below its recent average",
+        "The bigger direction is still weak",
+        "The trend has not turned up yet",
+        "The price lost ground this week",
+        "Buyers are not showing enough strength"
+      ],
+      "bulletSentiments": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "S68",
+      "name": "SGX",
+      "score": 25,
+      "stars": 1,
+      "signal": "AVOID",
+      "price": 22.53,
+      "changePercent": -1.66,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The bigger direction is healthy",
+        "More buyers are showing interest",
+        "The price is still below its recent average",
+        "The trend has not turned up yet",
+        "The price lost ground this week"
+      ],
+      "bulletSentiments": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "S63",
+      "name": "ST Engineering",
+      "score": 5,
+      "stars": 1,
+      "signal": "AVOID",
+      "price": 10.13,
+      "changePercent": -0.88,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The price is still below its recent average",
+        "The bigger direction is still weak",
+        "The trend has not turned up yet",
+        "The price lost ground this week",
+        "Buyers are not showing enough strength"
+      ],
+      "bulletSentiments": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "Z74",
+      "name": "Singtel",
+      "score": 38,
+      "stars": 2,
+      "signal": "AVOID",
+      "price": 4.45,
+      "changePercent": -0.22,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The bigger direction is healthy",
+        "The trend is getting better",
+        "The price is still below its recent average",
+        "The price lost ground this week",
+        "The price is still below its next ceiling"
+      ],
+      "bulletSentiments": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "Y92",
+      "name": "Thai Beverage",
+      "score": 5,
+      "stars": 1,
+      "signal": "AVOID",
+      "price": 0.445,
+      "changePercent": -1.11,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The price is still below its recent average",
+        "The bigger direction is still weak",
+        "The trend has not turned up yet",
+        "The price lost ground this week",
+        "Buyers are not showing enough strength"
+      ],
+      "bulletSentiments": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "U11",
+      "name": "UOB",
+      "score": 43,
+      "stars": 2,
+      "signal": "AVOID",
+      "price": 41.33,
+      "changePercent": -2.36,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The price is holding above its recent average",
+        "The price still has room to move",
+        "The price is close to its next step up",
+        "The bigger direction is still weak",
+        "The trend has not turned up yet"
+      ],
+      "bulletSentiments": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "U14",
+      "name": "UOL Group",
+      "score": 10,
+      "stars": 1,
+      "signal": "AVOID",
+      "price": 8.54,
+      "changePercent": 0.0,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "More buyers are showing interest",
+        "The price is still below its recent average",
+        "The bigger direction is still weak",
+        "The trend has not turned up yet",
+        "The price lost ground this week"
+      ],
+      "bulletSentiments": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "V03",
+      "name": "Venture Corporation",
+      "score": 36,
+      "stars": 2,
+      "signal": "AVOID",
+      "price": 16.64,
+      "changePercent": -0.89,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The bigger direction is healthy",
+        "The price is close to its next step up",
+        "The price is still below its recent average",
+        "The trend has not turned up yet",
+        "The price lost ground this week"
+      ],
+      "bulletSentiments": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "F34",
+      "name": "Wilmar International",
+      "score": 8,
+      "stars": 1,
+      "signal": "AVOID",
+      "price": 3.7,
+      "changePercent": -0.54,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The price is still below its recent average",
+        "The bigger direction is still weak",
+        "The trend has not turned up yet",
+        "The price lost ground this week",
+        "Not enough buyers showed up today"
+      ],
+      "bulletSentiments": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "BS6",
+      "name": "Yangzijiang Shipbuilding",
+      "score": 60,
+      "stars": 3,
+      "signal": "WAIT",
+      "price": 5.09,
+      "changePercent": -0.39,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "5.04–5.10",
+      "stop": "4.87",
+      "target": "5.52",
+      "rr": "2.0",
+      "bullets": [
+        "The price is holding above its recent average",
+        "The bigger direction is healthy",
+        "The trend is getting better",
+        "The price lost ground this week",
+        "The price is still below its next ceiling"
+      ],
+      "bulletSentiments": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "eli5": "Some pieces look promising, but the picture is not complete. Keep watching and wait for a clearer move before entering."
+    },
+    {
+      "symbol": "ES3",
+      "name": "SPDR STI ETF",
+      "score": 33,
+      "stars": 2,
+      "signal": "AVOID",
+      "price": 5.72,
+      "changePercent": -1.21,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The bigger direction is healthy",
+        "More buyers are showing interest",
+        "The price is still below its recent average",
+        "The trend has not turned up yet",
+        "The price lost ground this week"
+      ],
+      "bulletSentiments": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "G3B",
+      "name": "Amova STI ETF",
+      "score": 43,
+      "stars": 2,
+      "signal": "AVOID",
+      "price": 5.83,
+      "changePercent": -1.15,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The bigger direction is healthy",
+        "The trend is getting better",
+        "More buyers are showing interest",
+        "The price is still below its recent average",
+        "The price lost ground this week"
+      ],
+      "bulletSentiments": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "OYY",
+      "name": "PropNex",
+      "score": 8,
+      "stars": 1,
+      "signal": "AVOID",
+      "price": 1.77,
+      "changePercent": -0.56,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The price is still below its recent average",
+        "The bigger direction is still weak",
+        "The trend has not turned up yet",
+        "The price lost ground this week",
+        "Not enough buyers showed up today"
+      ],
+      "bulletSentiments": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "S59",
+      "name": "SIA Engineering",
+      "score": 5,
+      "stars": 1,
+      "signal": "AVOID",
+      "price": 3.11,
+      "changePercent": 0.32,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The price is still below its recent average",
+        "The bigger direction is still weak",
+        "The trend has not turned up yet",
+        "The price lost ground this week",
+        "Buyers are not showing enough strength"
+      ],
+      "bulletSentiments": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "WJP",
+      "name": "VICOM",
+      "score": 43,
+      "stars": 2,
+      "signal": "AVOID",
+      "price": 1.83,
+      "changePercent": -1.08,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The bigger direction is healthy",
+        "The price still has room to move",
+        "The price is close to its next step up",
+        "The price is still below its recent average",
+        "The trend has not turned up yet"
+      ],
+      "bulletSentiments": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    },
+    {
+      "symbol": "C52",
+      "name": "ComfortDelGro",
+      "score": 0,
+      "stars": 1,
+      "signal": "AVOID",
+      "price": 1.26,
+      "changePercent": -1.56,
+      "currency": "SGD",
+      "priceDate": "15 Sep 2026",
+      "buyZone": "—",
+      "stop": "—",
+      "target": "—",
+      "rr": "—",
+      "bullets": [
+        "The price is still below its recent average",
+        "The bigger direction is still weak",
+        "The trend has not turned up yet",
+        "The price lost ground this week",
+        "Buyers are not showing enough strength"
+      ],
+      "bulletSentiments": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "eli5": "The setup is not strong enough today. There is no need to force a trade. Leave it alone until the picture improves."
+    }
+  ],
+  "refreshFailures": [],
+  "method": "Rules based on daily price direction, momentum, trading activity and the wider STI trend."
+}

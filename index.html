@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f5f2">
+  <meta name="description" content="SMART RICHARD — a simple after-market SGX swing trading decision dashboard.">
+  <title>SMART RICHARD — SGX Swing Dashboard</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg?v=5.0.1">
+  <link rel="stylesheet" href="style.css?v=5.0.1">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="SMART RICHARD dashboard home">
+        <span class="brand-mark" aria-hidden="true">SR</span>
+        <span class="brand-lockup">
+          <strong>SMART RICHARD</strong>
+          <small>Better every day</small>
+        </span>
+      </a>
+      <button class="icon-button" id="themeToggle" type="button" aria-label="Switch to dark mode" title="Dark mode">
+        <span class="theme-icon" aria-hidden="true">☾</span>
+      </button>
+    </header>
+
+    <main>
+      <section class="market-overview" aria-labelledby="marketHeading">
+        <div class="overview-copy">
+          <div class="eyebrow-row">
+            <p class="eyebrow" id="updatedLabel">Last updated —</p>
+            <span class="sample-pill" id="dataMode" hidden>Sample data</span>
+          </div>
+          <h1 id="marketHeading">Today’s market</h1>
+          <div class="market-score-line">
+            <strong id="marketScore">—</strong>
+            <span>/ 10</span>
+          </div>
+          <p class="market-signal" id="marketSignal">Loading today’s view…</p>
+          <p class="live-note" id="dataSourceNote">Checking the latest delayed market data…</p>
+        </div>
+        <div class="signal-orb" id="signalOrb" aria-hidden="true">
+          <span class="orb-glow"></span>
+          <span class="orb-core"></span>
+        </div>
+      </section>
+
+      <section class="decision-counts" aria-label="Today’s stock decisions">
+        <button class="count-card buy" type="button" data-filter="BUY WATCH">
+          <span>Buy watch</span>
+          <strong id="buyCount">—</strong>
+        </button>
+        <button class="count-card wait" type="button" data-filter="WAIT">
+          <span>Wait</span>
+          <strong id="waitCount">—</strong>
+        </button>
+        <button class="count-card avoid" type="button" data-filter="AVOID">
+          <span>Avoid</span>
+          <strong id="avoidCount">—</strong>
+        </button>
+      </section>
+
+      <section class="watchlist-section" aria-labelledby="watchlistHeading">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">My list</p>
+            <h2 id="watchlistHeading">Watchlist</h2>
+          </div>
+          <div class="heading-actions">
+            <button class="button secondary" id="editListButton" type="button">Edit list</button>
+            <button class="button primary" id="addStockButton" type="button">＋ Add stock</button>
+          </div>
+        </div>
+
+        <div class="controls" aria-label="Watchlist tools">
+          <label class="search-box">
+            <span aria-hidden="true">⌕</span>
+            <span class="sr-only">Search watchlist</span>
+            <input id="stockSearch" type="search" placeholder="Search stocks" autocomplete="off">
+          </label>
+          <div class="filter-tabs" role="group" aria-label="Filter stocks">
+            <button class="filter-tab active" type="button" data-filter="ALL" aria-pressed="true">All</button>
+            <button class="filter-tab" type="button" data-filter="FAVOURITES" aria-pressed="false">★</button>
+            <button class="filter-tab" type="button" data-filter="BUY WATCH" aria-pressed="false">Buy</button>
+            <button class="filter-tab" type="button" data-filter="WAIT" aria-pressed="false">Wait</button>
+            <button class="filter-tab" type="button" data-filter="AVOID" aria-pressed="false">Avoid</button>
+          </div>
+        </div>
+
+        <div class="stock-grid" id="stockGrid" aria-live="polite"></div>
+        <div class="empty-state" id="emptyState" hidden>
+          <div class="empty-icon" aria-hidden="true">⌕</div>
+          <h3>No stocks found</h3>
+          <p>Try another search or filter.</p>
+        </div>
+      </section>
+
+      <p class="footer-brand">SMART RICHARD · BETTER DECISIONS, BETTER EVERY DAY.</p>
+      <p class="footer-note">Uses delayed market data. This is a rule-based decision aid, not financial advice. Always confirm prices before trading.</p>
+    </main>
+  </div>
+
+  <dialog class="detail-dialog" id="detailDialog">
+    <article class="detail-sheet">
+      <button class="dialog-close" id="closeDetail" type="button" aria-label="Close stock details">×</button>
+      <div id="detailContent"></div>
+    </article>
+  </dialog>
+
+  <dialog class="add-dialog" id="addDialog">
+    <form class="add-sheet" method="dialog">
+      <div class="dialog-title-row">
+        <div>
+          <p class="eyebrow">Watchlist</p>
+          <h2>Add a stock</h2>
+        </div>
+        <button class="dialog-close inline" value="cancel" aria-label="Close add stock">×</button>
+      </div>
+      <p class="add-helper">Search all 30 STI companies, plus your extra watch stocks.</p>
+      <label class="search-box add-search">
+        <span aria-hidden="true">⌕</span>
+        <span class="sr-only">Search all stocks</span>
+        <input id="directorySearch" type="search" placeholder="Name or stock code" autocomplete="off">
+      </label>
+      <div class="directory-list" id="directoryList"></div>
+    </form>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js?v=5.0.1" defer></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+HOST SMART RICHARD ON GITHUB PAGES
+==================================
+
+The easiest route is GitHub Desktop. These instructions assume you already have
+a GitHub account and GitHub Desktop installed.
+
+1. Open GitHub Desktop.
+2. Choose File > Add Local Repository.
+3. Select the SGX-Swing-Dashboard folder.
+4. If asked, choose “create a repository here”.
+5. Name the repository smart-richard.
+6. Commit all files with the message: First SMART RICHARD version
+7. Click Publish repository.
+
+Choose PUBLIC unless you have a GitHub plan that supports Pages for private
+repositories. Do not put personal or secret information in this folder: the
+website and its files can be publicly visible.
+
+TURN ON THE WEBSITE
+
+1. Open the smart-richard repository on github.com.
+2. Click Settings.
+3. In the left sidebar, click Pages.
+4. Under Build and deployment, choose GitHub Actions as the Source.
+5. Click the Actions tab.
+6. Open “Refresh market data and publish SMART RICHARD”.
+7. Click Run workflow, then Run workflow again.
+8. Wait for the green tick. Return to Settings > Pages and click Visit site.
+
+Your address will look like:
+
+https://YOUR-USERNAME.github.io/smart-richard/
+
+AUTOMATIC UPDATES
+
+The included workflow refreshes delayed market data and republishes the dashboard
+at 6:30 PM Singapore time from Monday to Friday. GitHub schedules can occasionally
+start a little late. You can run it immediately from the Actions tab at any time.
+
+PUBLISH LATER CHANGES
+
+In GitHub Desktop:
+
+1. Write a short summary of the change.
+2. Click Commit to main.
+3. Click Push origin.
+
+The website will publish again automatically.
+
+GitHub Pages hosts the website files but does not run Python continuously. The
+scheduled GitHub workflow runs update_scan.py first, then publishes the resulting
+scan.json together with the dashboard.
