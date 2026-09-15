@@ -4,9 +4,11 @@ on:
   push:
     branches: [main]
   schedule:
-    # 6:30 PM Singapore time, Monday to Friday.
-    - cron: "30 10 * * 1-5"
-  workflow_dispatch:
+  schedule:
+    # 9:05 AM Singapore time, Monday to Friday.
+    - cron: "5 9 * * 1-5"
+      timezone: "Asia/Singapore"
+      workflow_dispatch:
 
 permissions:
   contents: read
