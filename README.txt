@@ -1,7 +1,7 @@
 SMART RICHARD
 =============
 
-BETTER DECISIONS. BETTER EVERY DAY.
+1% BETTER EVERY DAY.
 
 An after-market SGX swing dashboard built for Richard.
 
@@ -50,7 +50,7 @@ stocks.json     The searchable STI and extra-stock directory.
 GITHUB PAGES
 
 Read GITHUB-HOSTING.txt for the simple publishing steps. The included GitHub
-workflow refreshes the delayed scan at 6:30 PM Singapore time on weekdays and
+workflow refreshes the delayed scan at 9:05 AM Singapore time on weekdays and
 publishes the updated dashboard automatically.
 
 IMPORTANT
