@@ -22,6 +22,8 @@ There is nothing to install. The dashboard works locally on this Mac.
 USING THE DASHBOARD
 
 - Click a stock card to see the simple reason and trade plan.
+- Read the mini chart for the stock's recent two-month daily price trend.
+- BUY WATCH cards show a suggested entry zone for a possible pullback.
 - Use Search to find a stock already on the watchlist.
 - Click the star to mark a favourite.
 - Click Edit list to move or remove stocks.
@@ -38,6 +40,11 @@ dashboard opens. It uses no API key and installs nothing.
 
 If the data service is unavailable, SMART RICHARD opens the last saved scan.
 The dashboard checks every minute for a newly written scan.
+
+Suggested entry zones appear only for BUY WATCH stocks. The zone looks for a
+small pullback toward the rising 20-day trend, adjusted for that stock's recent
+average daily movement. The displayed stop uses the same daily movement measure,
+and the target is set at approximately twice the planned risk.
 
 
 THE THREE DATA FILES

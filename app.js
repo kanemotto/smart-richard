@@ -65,6 +65,47 @@ function formatChange(stock) {
   return `<span class="${direction}">${sign}${stock.changePercent.toFixed(2)}%</span>`;
 }
 
+function currencyPrefix(stock) {
+  return stock.currency === "USD" ? "US$" : "S$";
+}
+
+function formatPlanPrice(stock, value) {
+  if (!value || value === "—") return "—";
+  const prefix = currencyPrefix(stock);
+  return String(value).split("–").map((part) => `${prefix}${part}`).join("–");
+}
+
+function sparkline(stock, className = "mini-chart") {
+  const values = Array.isArray(stock.sparkline)
+    ? stock.sparkline.map(Number).filter(Number.isFinite)
+    : [];
+  if (values.length < 2) return "";
+
+  const width = 180;
+  const height = 52;
+  const padding = 3;
+  const minimum = Math.min(...values);
+  const maximum = Math.max(...values);
+  const range = maximum - minimum || 1;
+  const points = values.map((value, index) => {
+    const x = padding + (index / (values.length - 1)) * (width - (padding * 2));
+    const y = padding + ((maximum - value) / range) * (height - (padding * 2));
+    return `${x.toFixed(1)},${y.toFixed(1)}`;
+  }).join(" ");
+  const rising = values[values.length - 1] >= values[0];
+  const plottedPoints = points.split(" ");
+  const lastPoint = plottedPoints[plottedPoints.length - 1].split(",");
+  const trend = rising ? "up" : "down";
+
+  return `<figure class="${className} ${trend}" aria-label="${stock.name} two-month daily price trend">
+    <figcaption>2-month trend</figcaption>
+    <svg viewBox="0 0 ${width} ${height}" role="img" aria-hidden="true" preserveAspectRatio="none">
+      <polyline points="${points}" fill="none" vector-effect="non-scaling-stroke"></polyline>
+      <circle cx="${lastPoint[0]}" cy="${lastPoint[1]}" r="3"></circle>
+    </svg>
+  </figure>`;
+}
+
 function stockInfo(symbol) {
   return state.directory.find((item) => item.symbol === symbol) || {};
 }
@@ -145,7 +186,15 @@ function renderWatchlist() {
         </div>
         <h3 class="stock-name">${stock.name}</h3>
         <p class="stock-meta">${stock.symbol} · ${info.sector || "SGX"}</p>
-        <p class="stock-live">${formatPrice(stock)} ${formatChange(stock)}</p>
+        <div class="card-market-row">
+          <p class="stock-live">${formatPrice(stock)} ${formatChange(stock)}</p>
+          ${sparkline(stock)}
+        </div>
+        ${stock.signal === "BUY WATCH" ? `<div class="entry-zone">
+          <span>Suggested entry zone</span>
+          <strong>${formatPlanPrice(stock, stock.buyZone)}</strong>
+          <small>Rule-based · wait for this price range</small>
+        </div>` : ""}
         <div class="card-bottom">
           <div class="stock-score">${stock.score}<small> /100</small></div>
           <span class="signal-badge ${signalClass(stock.signal)}">${stock.signal}</span>
@@ -166,9 +215,9 @@ function openDetail(symbol) {
   if (!stock) return;
   const decision = stock.signal === "BUY WATCH" ? "YES" : stock.signal === "AVOID" ? "NO" : "WAIT";
   const details = [
-    ["Buy zone", stock.buyZone],
-    ["Stop", stock.stop],
-    ["Target", stock.target],
+    ["Suggested entry", formatPlanPrice(stock, stock.buyZone)],
+    ["Stop", formatPlanPrice(stock, stock.stop)],
+    ["Target", formatPlanPrice(stock, stock.target)],
     ["Risk reward", stock.rr]
   ];
 
@@ -176,6 +225,7 @@ function openDetail(symbol) {
     <p class="detail-symbol">${stock.symbol}</p>
     <h2 class="detail-title">${stock.name}</h2>
     <p class="stock-live">Latest delayed price: ${formatPrice(stock)} ${formatChange(stock)}</p>
+    ${sparkline(stock, "detail-chart")}
     <div class="detail-score-row">
       <div class="detail-score">${stock.score}<small> /100</small></div>
       <span class="signal-badge ${signalClass(stock.signal)}">${stock.signal}</span>
@@ -195,6 +245,7 @@ function openDetail(symbol) {
     </section>
     <section class="detail-block">
       <h3>Trade plan</h3>
+      <p class="trade-plan-note">${stock.signal === "BUY WATCH" ? "The suggested entry waits for a pullback toward the recent trend. Confirm the live price before acting." : "Entry prices appear only when this stock reaches BUY WATCH."}</p>
       <div class="trade-plan">
         ${details.map(([label, value]) => `<div class="plan-card"><span>${label}</span><strong>${value}</strong></div>`).join("")}
       </div>
@@ -380,9 +431,9 @@ function bindEvents() {
 
 async function loadData() {
   const [scanResponse, watchlistResponse, directoryResponse] = await Promise.all([
-    fetch("scan.json?v=5.1.0", { cache: "no-store" }),
-    fetch("watchlist.json?v=5.1.0", { cache: "no-store" }),
-    fetch("stocks.json?v=5.1.0", { cache: "no-store" })
+    fetch("scan.json?v=5.2.0", { cache: "no-store" }),
+    fetch("watchlist.json?v=5.2.0", { cache: "no-store" }),
+    fetch("stocks.json?v=5.2.0", { cache: "no-store" })
   ]);
   if (!scanResponse.ok || !watchlistResponse.ok || !directoryResponse.ok) throw new Error("Data could not be loaded");
 

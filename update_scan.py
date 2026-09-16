@@ -207,12 +207,20 @@ def stock_decision(stock, bars, meta, market_score):
 
     latest = metrics["close"]
     movement = metrics["atr"]
-    if signal == "AVOID" or not math.isfinite(movement) or movement <= 0:
+    if signal != "BUY WATCH" or not math.isfinite(movement) or movement <= 0:
         buy_zone, stop, target, risk_reward = "—", "—", "—", "—"
     else:
-        buy_zone = f"{price_text(latest * 0.99)}–{price_text(latest * 1.002)}"
-        stop = price_text(max(0, latest - 1.5 * movement))
-        target = price_text(latest + 3 * movement)
+        # Prefer a pullback toward the rising 20-day trend instead of suggesting
+        # that someone chase the current price. ATR keeps the zone proportional
+        # to how much this particular counter normally moves.
+        entry_low = max(metrics["sma20"], latest - (0.50 * movement))
+        entry_high = min(latest, max(entry_low, latest - (0.10 * movement)))
+        stop_value = max(0, entry_low - (1.25 * movement))
+        entry_midpoint = (entry_low + entry_high) / 2
+        target_value = entry_midpoint + (2 * (entry_midpoint - stop_value))
+        buy_zone = f"{price_text(entry_low)}–{price_text(entry_high)}"
+        stop = price_text(stop_value)
+        target = price_text(target_value)
         risk_reward = "2.0"
 
     if signal == "BUY WATCH":
@@ -237,6 +245,7 @@ def stock_decision(stock, bars, meta, market_score):
         "changePercent": round(change_percent, 2),
         "currency": currency,
         "priceDate": data_time.strftime("%d %b %Y"),
+        "sparkline": [round(bar["close"], 4) for bar in bars[-42:]],
         "buyZone": buy_zone,
         "stop": stop,
         "target": target,
