@@ -4,8 +4,11 @@ on:
   push:
     branches: [main]
   schedule:
-    # 9:05 AM Singapore time, Monday to Friday.
-    - cron: "5 9 * * 1-5"
+    # Hourly snapshots during SGX sessions, Monday to Friday.
+    - cron: "5 9-12,13-16 * * 1-5"
+      timezone: "Asia/Singapore"
+    # One final snapshot after the Trade at Close session ends.
+    - cron: "20 17 * * 1-5"
       timezone: "Asia/Singapore"
   workflow_dispatch:
 
