@@ -10,7 +10,7 @@ import webbrowser
 
 HOST = "127.0.0.1"
 PORT = 8765
-URL = f"http://{HOST}:{PORT}/?v=5.0.1"
+URL = f"http://{HOST}:{PORT}/?v=5.1.0"
 
 
 class NoCacheHandler(SimpleHTTPRequestHandler):
@@ -34,7 +34,7 @@ def port_is_in_use():
 
 def existing_server_is_this_dashboard():
     try:
-        with urllib.request.urlopen(f"http://{HOST}:{PORT}/app.js?v=5.0.1", timeout=2) as response:
+        with urllib.request.urlopen(f"http://{HOST}:{PORT}/app.js?v=5.1.0", timeout=2) as response:
             return b"sgx-watchlist-v4" in response.read(12000)
     except Exception:
         return False

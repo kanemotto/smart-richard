@@ -8,7 +8,7 @@ An after-market SGX swing dashboard built for Richard.
 START THE DASHBOARD
 
 1. Double-click START.command while connected to the internet.
-2. SMART RICHARD refreshes its delayed daily market data.
+2. SMART RICHARD refreshes its delayed market data and daily scoring inputs.
 3. Safari opens automatically when the refresh finishes.
 4. Keep the small Terminal window open while using the dashboard.
 5. Close the Terminal window when you are finished.
@@ -25,7 +25,7 @@ USING THE DASHBOARD
 - Use Search to find a stock already on the watchlist.
 - Click the star to mark a favourite.
 - Click Edit list to move or remove stocks.
-- Click Add stock to search all 30 STI companies and the extra watch stocks.
+- Click Add stock to search 200 popular SGX stocks, REITs and ETFs.
 - Click the moon or sun button to change between light and dark mode.
 
 Watchlist changes and favourites are saved in this browser on this Mac.
@@ -44,14 +44,14 @@ THE THREE DATA FILES
 
 scan.json       Today's analysis and trade plans.
 watchlist.json  The default order of stocks on a new browser.
-stocks.json     The searchable STI and extra-stock directory.
+stocks.json     The searchable 200-counter SGX directory.
 
 
 GITHUB PAGES
 
 Read GITHUB-HOSTING.txt for the simple publishing steps. The included GitHub
-workflow refreshes the delayed scan at 9:05 AM Singapore time on weekdays and
-publishes the updated dashboard automatically.
+workflow refreshes the delayed scan hourly during SGX market sessions on weekdays,
+then publishes the updated dashboard automatically.
 
 IMPORTANT
 

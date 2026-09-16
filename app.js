@@ -73,6 +73,22 @@ function scanInfo(symbol) {
   return state.scan.stocks.find((item) => item.symbol === symbol);
 }
 
+function watchlistDecisionCounts() {
+  const stocks = state.watchlist.map(scanInfo).filter(Boolean);
+  return {
+    buy: stocks.filter((stock) => stock.signal === "BUY WATCH").length,
+    wait: stocks.filter((stock) => stock.signal === "WAIT").length,
+    avoid: stocks.filter((stock) => stock.signal === "AVOID").length
+  };
+}
+
+function renderDecisionCounts() {
+  const counts = watchlistDecisionCounts();
+  $("#buyCount").textContent = counts.buy;
+  $("#waitCount").textContent = counts.wait;
+  $("#avoidCount").textContent = counts.avoid;
+}
+
 function toast(message) {
   elements.toast.textContent = message;
   elements.toast.classList.add("show");
@@ -88,9 +104,7 @@ function renderMarket() {
   const marketSignal = $("#marketSignal");
   marketSignal.textContent = market.signal;
   marketSignal.className = `market-signal ${marketTone}`;
-  $("#buyCount").textContent = market.buy;
-  $("#waitCount").textContent = market.wait;
-  $("#avoidCount").textContent = market.avoid;
+  renderDecisionCounts();
 
   const dataMode = $("#dataMode");
   dataMode.hidden = !mode;
@@ -118,6 +132,7 @@ function visibleStocks() {
 
 function renderWatchlist() {
   const stocks = visibleStocks();
+  renderDecisionCounts();
   elements.grid.classList.toggle("editing", state.editing);
   elements.grid.innerHTML = stocks.map((stock) => {
     const info = stockInfo(stock.symbol);
@@ -267,7 +282,7 @@ function registerWebMCPTools() {
     inputSchema: { type: "object", properties: {}, additionalProperties: false },
     annotations: { readOnlyHint: true, untrustedContentHint: false },
     execute() {
-      return { updated: state.scan.updated, ...state.scan.market };
+      return { updated: state.scan.updated, ...state.scan.market, ...watchlistDecisionCounts() };
     }
   });
 
@@ -365,9 +380,9 @@ function bindEvents() {
 
 async function loadData() {
   const [scanResponse, watchlistResponse, directoryResponse] = await Promise.all([
-    fetch("scan.json?v=5.0.1", { cache: "no-store" }),
-    fetch("watchlist.json?v=5.0.1", { cache: "no-store" }),
-    fetch("stocks.json?v=5.0.1", { cache: "no-store" })
+    fetch("scan.json?v=5.1.0", { cache: "no-store" }),
+    fetch("watchlist.json?v=5.1.0", { cache: "no-store" }),
+    fetch("stocks.json?v=5.1.0", { cache: "no-store" })
   ]);
   if (!scanResponse.ok || !watchlistResponse.ok || !directoryResponse.ok) throw new Error("Data could not be loaded");
 

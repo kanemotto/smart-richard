@@ -1,38 +1,1202 @@
 [
-  { "symbol": "A17U", "name": "CapitaLand Ascendas REIT", "sector": "REIT", "universe": "STI" },
-  { "symbol": "C38U", "name": "CapitaLand Integrated Commercial Trust", "sector": "REIT", "universe": "STI" },
-  { "symbol": "9CI", "name": "CapitaLand Investment", "sector": "Real Estate", "universe": "STI" },
-  { "symbol": "C09", "name": "City Developments", "sector": "Real Estate", "universe": "STI" },
-  { "symbol": "D05", "name": "DBS Group", "sector": "Banking", "universe": "STI" },
-  { "symbol": "D01", "name": "DFI Retail Group", "sector": "Retail", "universe": "STI" },
-  { "symbol": "J69U", "name": "Frasers Centrepoint Trust", "sector": "REIT", "universe": "STI" },
-  { "symbol": "BUOU", "name": "Frasers Logistics & Commercial Trust", "sector": "REIT", "universe": "STI" },
-  { "symbol": "G13", "name": "Genting Singapore", "sector": "Leisure", "universe": "STI" },
-  { "symbol": "H78", "name": "Hongkong Land", "sector": "Real Estate", "universe": "STI" },
-  { "symbol": "J36", "name": "Jardine Matheson", "sector": "Conglomerate", "universe": "STI" },
-  { "symbol": "AJBU", "name": "Keppel DC REIT", "sector": "REIT", "universe": "STI" },
-  { "symbol": "BN4", "name": "Keppel", "sector": "Industrials", "universe": "STI" },
-  { "symbol": "ME8U", "name": "Mapletree Industrial Trust", "sector": "REIT", "universe": "STI" },
-  { "symbol": "M44U", "name": "Mapletree Logistics Trust", "sector": "REIT", "universe": "STI" },
-  { "symbol": "N2IU", "name": "Mapletree Pan Asia Commercial Trust", "sector": "REIT", "universe": "STI" },
-  { "symbol": "O39", "name": "OCBC Bank", "sector": "Banking", "universe": "STI" },
-  { "symbol": "S58", "name": "SATS", "sector": "Aviation Services", "universe": "STI" },
-  { "symbol": "5E2", "name": "Seatrium", "sector": "Marine & Offshore", "universe": "STI" },
-  { "symbol": "U96", "name": "Sembcorp Industries", "sector": "Utilities", "universe": "STI" },
-  { "symbol": "C6L", "name": "Singapore Airlines", "sector": "Airlines", "universe": "STI" },
-  { "symbol": "S68", "name": "SGX", "sector": "Financial Services", "universe": "STI" },
-  { "symbol": "S63", "name": "ST Engineering", "sector": "Industrials", "universe": "STI" },
-  { "symbol": "Z74", "name": "Singtel", "sector": "Telecommunications", "universe": "STI" },
-  { "symbol": "Y92", "name": "Thai Beverage", "sector": "Consumer", "universe": "STI" },
-  { "symbol": "U11", "name": "UOB", "sector": "Banking", "universe": "STI" },
-  { "symbol": "U14", "name": "UOL Group", "sector": "Real Estate", "universe": "STI" },
-  { "symbol": "V03", "name": "Venture Corporation", "sector": "Technology", "universe": "STI" },
-  { "symbol": "F34", "name": "Wilmar International", "sector": "Consumer", "universe": "STI" },
-  { "symbol": "BS6", "name": "Yangzijiang Shipbuilding", "sector": "Industrials", "universe": "STI" },
-  { "symbol": "ES3", "name": "SPDR STI ETF", "sector": "ETF", "universe": "Extra" },
-  { "symbol": "G3B", "name": "Amova STI ETF", "sector": "ETF", "universe": "Extra" },
-  { "symbol": "OYY", "name": "PropNex", "sector": "Real Estate", "universe": "Extra" },
-  { "symbol": "S59", "name": "SIA Engineering", "sector": "Aviation Services", "universe": "Extra" },
-  { "symbol": "WJP", "name": "VICOM", "sector": "Vehicle Services", "universe": "Extra" },
-  { "symbol": "C52", "name": "ComfortDelGro", "sector": "Transport", "universe": "Extra" }
+  {
+    "symbol": "D05",
+    "name": "DBS Group Holdings Ltd",
+    "sector": "Banking",
+    "universe": "STI"
+  },
+  {
+    "symbol": "O39",
+    "name": "Oversea-Chinese Banking Corporation Limited",
+    "sector": "Banking",
+    "universe": "STI"
+  },
+  {
+    "symbol": "Z74",
+    "name": "Singapore Telecommunications Limited",
+    "sector": "Telecommunications",
+    "universe": "STI"
+  },
+  {
+    "symbol": "U11",
+    "name": "United Overseas Bank Limited",
+    "sector": "Banking",
+    "universe": "STI"
+  },
+  {
+    "symbol": "K6S",
+    "name": "Prudential plc",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "S63",
+    "name": "Singapore Technologies Engineering Ltd",
+    "sector": "Industrials",
+    "universe": "STI"
+  },
+  {
+    "symbol": "S68",
+    "name": "Singapore Exchange Limited",
+    "sector": "Financial Services",
+    "universe": "STI"
+  },
+  {
+    "symbol": "F34",
+    "name": "Wilmar International Limited",
+    "sector": "Consumer",
+    "universe": "STI"
+  },
+  {
+    "symbol": "H78",
+    "name": "Hongkong Land Holdings Limited",
+    "sector": "Real Estate",
+    "universe": "STI"
+  },
+  {
+    "symbol": "J36",
+    "name": "Jardine Matheson Holdings Limited",
+    "sector": "Conglomerate",
+    "universe": "STI"
+  },
+  {
+    "symbol": "Q0F",
+    "name": "IHH Healthcare Berhad",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "C6L",
+    "name": "Singapore Airlines Limited",
+    "sector": "Airlines",
+    "universe": "STI"
+  },
+  {
+    "symbol": "BN4",
+    "name": "Keppel Ltd.",
+    "sector": "Industrials",
+    "universe": "STI"
+  },
+  {
+    "symbol": "BS6",
+    "name": "Yangzijiang Shipbuilding (Holdings) Ltd.",
+    "sector": "Industrials",
+    "universe": "STI"
+  },
+  {
+    "symbol": "G07",
+    "name": "Great Eastern Holdings Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "C38U",
+    "name": "CapitaLand Integrated Commercial Trust",
+    "sector": "REIT",
+    "universe": "STI"
+  },
+  {
+    "symbol": "9CI",
+    "name": "CapitaLand Investment Limited",
+    "sector": "Real Estate",
+    "universe": "STI"
+  },
+  {
+    "symbol": "A17U",
+    "name": "CapitaLand Ascendas REIT",
+    "sector": "REIT",
+    "universe": "STI"
+  },
+  {
+    "symbol": "Y92",
+    "name": "Thai Beverage Public Company Limited",
+    "sector": "Consumer",
+    "universe": "STI"
+  },
+  {
+    "symbol": "C07",
+    "name": "Jardine Cycle & Carriage Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "U96",
+    "name": "Sembcorp Industries Ltd",
+    "sector": "Utilities",
+    "universe": "STI"
+  },
+  {
+    "symbol": "EB5",
+    "name": "First Resources Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "G13",
+    "name": "Genting Singapore Limited",
+    "sector": "Leisure",
+    "universe": "STI"
+  },
+  {
+    "symbol": "U14",
+    "name": "UOL Group Limited",
+    "sector": "Real Estate",
+    "universe": "STI"
+  },
+  {
+    "symbol": "C09",
+    "name": "City Developments Limited",
+    "sector": "Real Estate",
+    "universe": "STI"
+  },
+  {
+    "symbol": "5E2",
+    "name": "Seatrium Limited",
+    "sector": "Marine & Offshore",
+    "universe": "STI"
+  },
+  {
+    "symbol": "N2IU",
+    "name": "Mapletree Pan Asia Commercial Trust",
+    "sector": "REIT",
+    "universe": "STI"
+  },
+  {
+    "symbol": "D01",
+    "name": "DFI Retail Group Holdings Limited",
+    "sector": "Retail",
+    "universe": "STI"
+  },
+  {
+    "symbol": "S58",
+    "name": "SATS Ltd.",
+    "sector": "Aviation Services",
+    "universe": "STI"
+  },
+  {
+    "symbol": "M44U",
+    "name": "Mapletree Logistics Trust",
+    "sector": "REIT",
+    "universe": "STI"
+  },
+  {
+    "symbol": "ME8U",
+    "name": "Mapletree Industrial Trust",
+    "sector": "REIT",
+    "universe": "STI"
+  },
+  {
+    "symbol": "AJBU",
+    "name": "Keppel DC REIT",
+    "sector": "REIT",
+    "universe": "STI"
+  },
+  {
+    "symbol": "OV8",
+    "name": "Sheng Siong Group Ltd",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "EMI",
+    "name": "Emperador Inc.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "V03",
+    "name": "Venture Corporation Limited",
+    "sector": "Technology",
+    "universe": "STI"
+  },
+  {
+    "symbol": "U06",
+    "name": "Singapore Land Group Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "8A8",
+    "name": "China Medical System Holdings Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "T14",
+    "name": "Tianjin Pharmaceutical Da Ren Tang Group Corporation Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "J69U",
+    "name": "Frasers Centrepoint Trust",
+    "sector": "REIT",
+    "universe": "STI"
+  },
+  {
+    "symbol": "K71U",
+    "name": "Keppel REIT",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "E5H",
+    "name": "Golden Agri-Resources Ltd",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "T82U",
+    "name": "Suntec Real Estate Investment Trust",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "P8Z",
+    "name": "Bumitama Agri Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "TQ5",
+    "name": "Frasers Property Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "VC2",
+    "name": "Olam Group Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "U10",
+    "name": "UOB-Kay Hian Holdings Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "CJLU",
+    "name": "NetLink NBN Trust",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "S59",
+    "name": "SIA Engineering Company Limited",
+    "sector": "Aviation Services",
+    "universe": "Extra"
+  },
+  {
+    "symbol": "BUOU",
+    "name": "Frasers Logistics & Commercial Trust",
+    "sector": "REIT",
+    "universe": "STI"
+  },
+  {
+    "symbol": "HMN",
+    "name": "CapitaLand Ascott Trust",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "A7RU",
+    "name": "Keppel Infrastructure Trust",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "H02",
+    "name": "Haw Par Corporation Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "AWX",
+    "name": "AEM Holdings Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "C52",
+    "name": "ComfortDelGro Corporation Limited",
+    "sector": "Transport",
+    "universe": "Extra"
+  },
+  {
+    "symbol": "AIY",
+    "name": "iFAST Corporation Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "C2PU",
+    "name": "Parkway Life Real Estate Investment Trust",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "F17",
+    "name": "GuocoLand Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "H15",
+    "name": "Hotel Properties Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "S07",
+    "name": "Shangri-La Asia Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "NS8U",
+    "name": "Hutchison Port Holdings Trust",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "H22",
+    "name": "Hong Leong Asia Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "558",
+    "name": "UMS Integration Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "F99",
+    "name": "Fraser and Neave, Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "BVA",
+    "name": "Top Glove Corporation Bhd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "8YZ",
+    "name": "Yangzijiang Maritime Development Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "CC3",
+    "name": "StarHub Ltd",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "8C8U",
+    "name": "Centurion Accommodation REIT",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "TS0U",
+    "name": "OUE Real Estate Investment Trust",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "JYEU",
+    "name": "Lendlease Global Commercial REIT",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "AGS",
+    "name": "The Hour Glass Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "9A4U",
+    "name": "ESR-REIT",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "BSL",
+    "name": "Raffles Medical Group Ltd",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "A50",
+    "name": "Thomson Medical Group Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "F03",
+    "name": "Food Empire Holdings Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "CY6U",
+    "name": "CapitaLand India Trust",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "H13",
+    "name": "Ho Bee Land Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "OYY",
+    "name": "PropNex Limited",
+    "sector": "Real Estate",
+    "universe": "Extra"
+  },
+  {
+    "symbol": "P15",
+    "name": "Pacific Century Regional Developments Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "OU8",
+    "name": "Centurion Corporation Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "NC2",
+    "name": "Sri Trang Agro-Industry Public Company Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "BMGU",
+    "name": "BHG Retail REIT",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "P40U",
+    "name": "Starhill Global Real Estate Investment Trust",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "NTDU",
+    "name": "NTT DC REIT",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "PCT",
+    "name": "PC Partner Group Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "AP4",
+    "name": "Riverstone Holdings Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "O5RU",
+    "name": "AIMS APAC REIT",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "G92",
+    "name": "China Aviation Oil (Singapore) Corporation Ltd",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "W05",
+    "name": "Wing Tai Holdings Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "P52",
+    "name": "Pan-United Corporation Ltd",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "S61",
+    "name": "SBS Transit Ltd",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "STG",
+    "name": "Sri Trang Gloves (Thailand) Public Company Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "BEC",
+    "name": "BRC Asia Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "B61",
+    "name": "Bukit Sembawang Estates Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "ADN",
+    "name": "First Sponsor Group Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "E28",
+    "name": "Frencken Group Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "S41",
+    "name": "Hong Leong Finance Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "Q5T",
+    "name": "Far East Hospitality Trust",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "UIBU",
+    "name": "UI Boustead Real Estate Investment Trust",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "AU8U",
+    "name": "CapitaLand China Trust",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "EH5",
+    "name": "United Overseas Australia Ltd",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "Z25",
+    "name": "Yanlord Land Group Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "J85",
+    "name": "CDL Hospitality Trusts",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "T6I",
+    "name": "ValueMax Group Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "RE4",
+    "name": "Geo Energy Resources Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "544",
+    "name": "CSE Global Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "F9D",
+    "name": "Boustead Singapore Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "BWM",
+    "name": "Zheneng Jinjiang Environment Holding Company Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "W8W",
+    "name": "Coliwoo Holdings Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "P9D",
+    "name": "Civmec Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "CRPU",
+    "name": "Sasseur Real Estate Investment Trust",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "DCRU",
+    "name": "Digital Core REIT",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "UGS",
+    "name": "UltraGreen.ai Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "S20",
+    "name": "The Straits Trading Company Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "5UF",
+    "name": "Aspial Lifestyle Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "5WJ",
+    "name": "MoneyMax Financial Services Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "H30",
+    "name": "Hong Fok Corporation Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "LJ3",
+    "name": "OUE Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "S08",
+    "name": "Singapore Post Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "CHZ",
+    "name": "HRnetGroup Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "YF8",
+    "name": "Yangzijiang Financial Holding Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "H07",
+    "name": "Stamford Land Corporation Ltd",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "A31",
+    "name": "Addvalue Technologies Ltd",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "WJP",
+    "name": "VICOM Ltd",
+    "sector": "Vehicle Services",
+    "universe": "Extra"
+  },
+  {
+    "symbol": "C41",
+    "name": "Cortina Holdings Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "42C",
+    "name": "iX Biopharma Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "U9E",
+    "name": "China Everbright Water Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "HQU",
+    "name": "Oiltek International Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "QES",
+    "name": "China Sunsine Chemical Holdings Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "E3B",
+    "name": "Wee Hur Holdings Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "TSH",
+    "name": "TSH Resources Berhad",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "MZH",
+    "name": "Nanofilm Technologies International Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "5TP",
+    "name": "CNMC Goldmine Holdings Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "Q01",
+    "name": "QAF Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "M1GU",
+    "name": "Alpha Integrated Real Estate Investment Trust",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "5LY",
+    "name": "Marco Polo Marine Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "H18",
+    "name": "Hotel Grand Central Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "O10",
+    "name": "Far East Orchard Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "U13",
+    "name": "United Overseas Insurance Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "T15",
+    "name": "Tan Chong International Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "1D0",
+    "name": "Kimly Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "F83",
+    "name": "COSCO SHIPPING International (Singapore) Co., Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "QC7",
+    "name": "Q & M Dental Group (Singapore) Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "S56",
+    "name": "Samudera Shipping Line Ltd",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "5JS",
+    "name": "Indofood Agri Resources Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "5GD",
+    "name": "Sunpower Group Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "NPW",
+    "name": "Malaysia Smelting Corporation Berhad",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "P34",
+    "name": "Delfi Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "BDX",
+    "name": "GSH Corporation Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "BTM",
+    "name": "Penguin International Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "SEG",
+    "name": "Concord New Energy Group Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "B58",
+    "name": "Banyan Tree Holdings Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "AW9U",
+    "name": "First Real Estate Investment Trust",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "8AZ",
+    "name": "Aztech Global Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "BHK",
+    "name": "SIIC Environment Holdings Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "1MZ",
+    "name": "Nam Cheong Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "MV4",
+    "name": "Mewah International Inc.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "ZKX",
+    "name": "Ever Glory United Holdings Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "BN2",
+    "name": "Valuetronics Holdings Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "AWZ",
+    "name": "Multi-Chem Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "B28",
+    "name": "Bonvests Holdings Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "ODBU",
+    "name": "United Hampshire US Real Estate Investment Trust",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "ZQM",
+    "name": "Soilbuild Construction Group Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "S35",
+    "name": "Sing Investments & Finance Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "5CF",
+    "name": "OKP Holdings Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "5DD",
+    "name": "Micro-Mechanics (Holdings) Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "Y03",
+    "name": "Yeo Hiap Seng Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "KUO",
+    "name": "International Cement Group Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "STC",
+    "name": "Comba Telecom Systems Holdings Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "N02",
+    "name": "NSL Ltd",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "S3N",
+    "name": "Global Resource Construction Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "MENU",
+    "name": "Elite UK REIT",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "T24",
+    "name": "Tuan Sing Holdings Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "A30",
+    "name": "Aspial Corporation Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "M01",
+    "name": "Metro Holdings Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "5UX",
+    "name": "Oxley Holdings Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "BBW",
+    "name": "Azeus Systems Holdings Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "A04",
+    "name": "ASL Marine Holdings Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "5IG",
+    "name": "Gallant Venture Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "5JK",
+    "name": "Hiap Hoe Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "BTE",
+    "name": "Bund Center Investment Ltd",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "DHLU",
+    "name": "Daiwa House Logistics Trust",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "G20",
+    "name": "GP Industries Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "DM0",
+    "name": "PSC Corporation Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "QNS",
+    "name": "Southern Alliance Mining Ltd.",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "JCO",
+    "name": "JustCo Holdings Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "I07",
+    "name": "ISDN Holdings Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "BEW",
+    "name": "JB Foods Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "5VS",
+    "name": "Hafary Holdings Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "S85",
+    "name": "Straco Corporation Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "OXMU",
+    "name": "Prime US REIT",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "UD1U",
+    "name": "IREIT Global",
+    "sector": "REIT / Trust",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "500",
+    "name": "Tai Sin Electric Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "TCU",
+    "name": "Credit Bureau Asia Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "H12",
+    "name": "Hotel Royal Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "X5N",
+    "name": "Avarga Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "AWI",
+    "name": "Thakral Corporation Ltd",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "CLN",
+    "name": "APAC Realty Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "41O",
+    "name": "LHN Limited",
+    "sector": "SGX stock",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "ES3",
+    "name": "SPDR Straits Times Index ETF",
+    "sector": "ETF",
+    "universe": "Popular SGX"
+  },
+  {
+    "symbol": "G3B",
+    "name": "Amova Straits Times Index ETF",
+    "sector": "ETF",
+    "universe": "Popular SGX"
+  }
 ]

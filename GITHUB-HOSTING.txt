@@ -34,8 +34,9 @@ https://YOUR-USERNAME.github.io/smart-richard/
 AUTOMATIC UPDATES
 
 The included workflow refreshes delayed market data and republishes the dashboard
-at 6:30 PM Singapore time from Monday to Friday. GitHub schedules can occasionally
-start a little late. You can run it immediately from the Actions tab at any time.
+roughly every hour during SGX trading sessions from Monday to Friday, with a final
+snapshot after the close. GitHub schedules can occasionally start a little late.
+You can run it immediately from the Actions tab at any time.
 
 PUBLISH LATER CHANGES
 
