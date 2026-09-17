@@ -6,8 +6,8 @@
   <meta name="theme-color" content="#f4f5f2">
   <meta name="description" content="SMART RICHARD — a simple after-market SGX swing trading decision dashboard.">
   <title>SMART RICHARD — SGX Swing Dashboard</title>
-  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg?v=5.2.0">
-  <link rel="stylesheet" href="style.css?v=5.2.0">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg?v=5.3.0">
+  <link rel="stylesheet" href="style.css?v=5.3.0">
 </head>
 <body>
   <div class="app-shell">
@@ -58,6 +58,10 @@
           <span>Avoid</span>
           <strong id="avoidCount">—</strong>
         </button>
+        <button class="count-card turnaround" type="button" data-filter="TURNAROUND">
+          <span>Turning up?</span>
+          <strong id="turnaroundCount">—</strong>
+        </button>
       </section>
 
       <section class="watchlist-section" aria-labelledby="watchlistHeading">
@@ -84,6 +88,7 @@
             <button class="filter-tab" type="button" data-filter="BUY WATCH" aria-pressed="false">Buy</button>
             <button class="filter-tab" type="button" data-filter="WAIT" aria-pressed="false">Wait</button>
             <button class="filter-tab" type="button" data-filter="AVOID" aria-pressed="false">Avoid</button>
+            <button class="filter-tab" type="button" data-filter="TURNAROUND" aria-pressed="false">↗ Turning?</button>
           </div>
         </div>
 
@@ -116,17 +121,22 @@
         </div>
         <button class="dialog-close inline" value="cancel" aria-label="Close add stock">×</button>
       </div>
-      <p class="add-helper">Search 200 popular SGX stocks, REITs and ETFs — including Sheng Siong (OV8).</p>
+      <p class="add-helper" id="directoryHelper">Loading the SGX share-counter directory…</p>
       <label class="search-box add-search">
         <span aria-hidden="true">⌕</span>
         <span class="sr-only">Search all stocks</span>
         <input id="directorySearch" type="search" placeholder="Name or stock code" autocomplete="off">
       </label>
+      <div class="directory-tools">
+        <p class="directory-count" id="directoryResultCount" aria-live="polite"></p>
+        <button class="turnaround-toggle" id="directoryTurnaroundToggle" type="button" aria-pressed="false">↗ Turning up only</button>
+      </div>
+      <p class="turnaround-helper">Possible turnaround is an early rule-based signal, not a prediction.</p>
       <div class="directory-list" id="directoryList"></div>
     </form>
   </dialog>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="app.js?v=5.2.0" defer></script>
+  <script src="app.js?v=5.3.0" defer></script>
 </body>
 </html>

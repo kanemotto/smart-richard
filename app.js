@@ -13,6 +13,7 @@ const state = {
   favourites: new Set(),
   filter: "ALL",
   query: "",
+  directoryTurnaroundOnly: false,
   editing: false
 };
 
@@ -119,7 +120,8 @@ function watchlistDecisionCounts() {
   return {
     buy: stocks.filter((stock) => stock.signal === "BUY WATCH").length,
     wait: stocks.filter((stock) => stock.signal === "WAIT").length,
-    avoid: stocks.filter((stock) => stock.signal === "AVOID").length
+    avoid: stocks.filter((stock) => stock.signal === "AVOID").length,
+    turnaround: stocks.filter((stock) => stock.turnaround).length
   };
 }
 
@@ -128,6 +130,7 @@ function renderDecisionCounts() {
   $("#buyCount").textContent = counts.buy;
   $("#waitCount").textContent = counts.wait;
   $("#avoidCount").textContent = counts.avoid;
+  $("#turnaroundCount").textContent = counts.turnaround;
 }
 
 function toast(message) {
@@ -166,6 +169,7 @@ function visibleStocks() {
     const matchesSearch = haystack.includes(state.query.toLowerCase());
     const matchesFilter = state.filter === "ALL"
       || (state.filter === "FAVOURITES" && state.favourites.has(stock.symbol))
+      || (state.filter === "TURNAROUND" && stock.turnaround)
       || stock.signal === state.filter;
     return matchesSearch && matchesFilter;
   });
@@ -186,14 +190,15 @@ function renderWatchlist() {
         </div>
         <h3 class="stock-name">${stock.name}</h3>
         <p class="stock-meta">${stock.symbol} · ${info.sector || "SGX"}</p>
+        ${stock.turnaround ? `<div class="turnaround-badge">↗ Possible turnaround</div>` : ""}
         <div class="card-market-row">
           <p class="stock-live">${formatPrice(stock)} ${formatChange(stock)}</p>
           ${sparkline(stock)}
         </div>
-        ${stock.signal === "BUY WATCH" ? `<div class="entry-zone">
-          <span>Suggested entry zone</span>
-          <strong>${formatPlanPrice(stock, stock.buyZone)}</strong>
-          <small>Rule-based · wait for this price range</small>
+        ${stock.signal === "BUY WATCH" ? `<div class="trade-preview">
+          <div><span>Entry zone</span><strong>${formatPlanPrice(stock, stock.buyZone)}</strong></div>
+          <div><span>Exit target</span><strong>${formatPlanPrice(stock, stock.target)}</strong></div>
+          <small>Rule-based levels · confirm the live price</small>
         </div>` : ""}
         <div class="card-bottom">
           <div class="stock-score">${stock.score}<small> /100</small></div>
@@ -217,8 +222,8 @@ function openDetail(symbol) {
   const details = [
     ["Suggested entry", formatPlanPrice(stock, stock.buyZone)],
     ["Stop", formatPlanPrice(stock, stock.stop)],
-    ["Target", formatPlanPrice(stock, stock.target)],
-    ["Risk reward", stock.rr]
+    ["Suggested exit target", formatPlanPrice(stock, stock.target)],
+    ["Reward / risk", stock.rr]
   ];
 
   elements.detailContent.innerHTML = `
@@ -234,6 +239,12 @@ function openDetail(symbol) {
       <span>Should I buy today?</span>
       <strong>${decision}</strong>
     </div>
+    ${stock.turnaround ? `<section class="turnaround-panel">
+      <strong>↗ Possible turnaround</strong>
+      <p>This stock was in a weaker phase, but its short trend and momentum have begun to improve.</p>
+      <ul>${(stock.turnaroundReasons || []).map((reason) => `<li>${reason}</li>`).join("")}</ul>
+      <small>Early signal only — the uptrend is not confirmed and the move can still fail.</small>
+    </section>` : ""}
     <section class="detail-block">
       <h3>Why?</h3>
       <ul class="reason-list">
@@ -283,15 +294,21 @@ function toggleFavourite(symbol) {
 
 function renderDirectory(query = "") {
   const lowered = query.trim().toLowerCase();
-  const items = state.directory.filter((stock) => `${stock.name} ${stock.symbol} ${stock.sector}`.toLowerCase().includes(lowered));
+  const items = state.directory.filter((stock) => {
+    const matchesQuery = `${stock.name} ${stock.symbol} ${stock.sector}`.toLowerCase().includes(lowered);
+    const matchesTurnaround = !state.directoryTurnaroundOnly || Boolean(scanInfo(stock.symbol)?.turnaround);
+    return matchesQuery && matchesTurnaround;
+  });
   elements.directoryList.innerHTML = items.map((stock) => {
     const added = state.watchlist.includes(stock.symbol);
-    const hasScan = Boolean(scanInfo(stock.symbol));
+    const scan = scanInfo(stock.symbol);
+    const hasScan = Boolean(scan);
     return `<div class="directory-item">
-      <div><strong>${stock.name}</strong><small>${stock.symbol} · ${stock.sector} · ${stock.universe || "SGX"}</small></div>
+      <div><strong>${stock.name}</strong><small>${stock.symbol} · ${stock.sector} · ${stock.universe || "SGX"}</small>${scan?.turnaround ? `<span class="directory-turnaround">↗ Possible turnaround</span>` : ""}</div>
       <button type="button" data-symbol="${stock.symbol}" ${added || !hasScan ? "disabled" : ""}>${added ? "Added" : hasScan ? "Add" : "No scan"}</button>
     </div>`;
   }).join("");
+  $("#directoryResultCount").textContent = `${items.length} counter${items.length === 1 ? "" : "s"}`;
 }
 
 function setFilter(filter) {
@@ -340,16 +357,16 @@ function registerWebMCPTools() {
   register({
     name: "set_watchlist_filter",
     title: "Filter watchlist",
-    description: "Show all stocks, favourites, BUY WATCH, WAIT, or AVOID stocks in the visible watchlist.",
+    description: "Show all stocks, favourites, BUY WATCH, WAIT, AVOID, or possible-turnaround stocks in the visible watchlist.",
     inputSchema: {
       type: "object",
-      properties: { filter: { type: "string", enum: ["ALL", "FAVOURITES", "BUY WATCH", "WAIT", "AVOID"] } },
+      properties: { filter: { type: "string", enum: ["ALL", "FAVOURITES", "BUY WATCH", "WAIT", "AVOID", "TURNAROUND"] } },
       required: ["filter"],
       additionalProperties: false
     },
     annotations: { readOnlyHint: false, untrustedContentHint: false },
     execute(input) {
-      if (!input || !["ALL", "FAVOURITES", "BUY WATCH", "WAIT", "AVOID"].includes(input.filter)) throw new Error("Choose a valid watchlist filter.");
+      if (!input || !["ALL", "FAVOURITES", "BUY WATCH", "WAIT", "AVOID", "TURNAROUND"].includes(input.filter)) throw new Error("Choose a valid watchlist filter.");
       setFilter(input.filter);
       return { filter: state.filter, visibleStocks: visibleStocks().length };
     }
@@ -381,8 +398,22 @@ function bindEvents() {
   $("#themeToggle").addEventListener("click", () => applyTheme(document.documentElement.dataset.theme === "dark" ? "light" : "dark"));
   $("#stockSearch").addEventListener("input", (event) => { state.query = event.target.value.trim(); renderWatchlist(); });
   $("#directorySearch").addEventListener("input", (event) => renderDirectory(event.target.value));
+  $("#directoryTurnaroundToggle").addEventListener("click", (event) => {
+    state.directoryTurnaroundOnly = !state.directoryTurnaroundOnly;
+    event.currentTarget.classList.toggle("active", state.directoryTurnaroundOnly);
+    event.currentTarget.setAttribute("aria-pressed", String(state.directoryTurnaroundOnly));
+    renderDirectory($("#directorySearch").value);
+  });
   $("#closeDetail").addEventListener("click", () => elements.detailDialog.close());
-  $("#addStockButton").addEventListener("click", () => { renderDirectory(); elements.addDialog.showModal(); setTimeout(() => $("#directorySearch").focus(), 0); });
+  $("#addStockButton").addEventListener("click", () => {
+    state.directoryTurnaroundOnly = false;
+    $("#directoryTurnaroundToggle").classList.remove("active");
+    $("#directoryTurnaroundToggle").setAttribute("aria-pressed", "false");
+    $("#directorySearch").value = "";
+    renderDirectory();
+    elements.addDialog.showModal();
+    setTimeout(() => $("#directorySearch").focus(), 0);
+  });
   $("#editListButton").addEventListener("click", () => {
     state.editing = !state.editing;
     $("#editListButton").textContent = state.editing ? "Done" : "Edit list";
@@ -431,14 +462,15 @@ function bindEvents() {
 
 async function loadData() {
   const [scanResponse, watchlistResponse, directoryResponse] = await Promise.all([
-    fetch("scan.json?v=5.2.0", { cache: "no-store" }),
-    fetch("watchlist.json?v=5.2.0", { cache: "no-store" }),
-    fetch("stocks.json?v=5.2.0", { cache: "no-store" })
+    fetch("scan.json?v=5.3.0", { cache: "no-store" }),
+    fetch("watchlist.json?v=5.3.0", { cache: "no-store" }),
+    fetch("stocks.json?v=5.3.0", { cache: "no-store" })
   ]);
   if (!scanResponse.ok || !watchlistResponse.ok || !directoryResponse.ok) throw new Error("Data could not be loaded");
 
   state.scan = await scanResponse.json();
   state.directory = await directoryResponse.json();
+  $("#directoryHelper").textContent = `Search ${state.directory.length} active SGX share counters, REITs and business trusts.`;
   const defaultWatchlist = await watchlistResponse.json();
   state.watchlist = safeRead(STORAGE.watchlist, defaultWatchlist);
   state.favourites = new Set(safeRead(STORAGE.favourites, []));

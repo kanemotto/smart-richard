@@ -23,11 +23,13 @@ USING THE DASHBOARD
 
 - Click a stock card to see the simple reason and trade plan.
 - Read the mini chart for the stock's recent two-month daily price trend.
-- BUY WATCH cards show a suggested entry zone for a possible pullback.
+- BUY WATCH cards show a suggested entry zone and rule-based exit target.
+- The blue Turning up? filter finds early improvement after a downtrend.
+- In Add stock, use Turning up only to discover candidates across the full scan.
 - Use Search to find a stock already on the watchlist.
 - Click the star to mark a favourite.
 - Click Edit list to move or remove stocks.
-- Click Add stock to search 200 popular SGX stocks, REITs and ETFs.
+- Click Add stock to search the active SGX share-counter directory.
 - Click the moon or sun button to change between light and dark mode.
 
 Watchlist changes and favourites are saved in this browser on this Mac.
@@ -41,17 +43,26 @@ dashboard opens. It uses no API key and installs nothing.
 If the data service is unavailable, SMART RICHARD opens the last saved scan.
 The dashboard checks every minute for a newly written scan.
 
-Suggested entry zones appear only for BUY WATCH stocks. The zone looks for a
+Suggested entry zones and exit targets appear only for BUY WATCH stocks. The zone looks for a
 small pullback toward the rising 20-day trend, adjusted for that stock's recent
 average daily movement. The displayed stop uses the same daily movement measure,
 and the target is set at approximately twice the planned risk.
+
+"Possible turnaround" is deliberately separate from BUY WATCH. It looks for a
+stock that was below its longer trend but now has an improving 20-day trend,
+better one-week price action and recovering momentum. It is an early-warning
+flag, not a prediction or confirmation that an uptrend will continue.
 
 
 THE THREE DATA FILES
 
 scan.json       Today's analysis and trade plans.
 watchlist.json  The default order of stocks on a new browser.
-stocks.json     The searchable 200-counter SGX directory.
+stocks.json     The searchable active SGX share-counter directory.
+
+refresh_universe.py rebuilds stocks.json from the SGX issuer directory and keeps
+only counters with sufficiently recent price history. Run it occasionally when
+new listings or delistings need to be reflected.
 
 
 GITHUB PAGES

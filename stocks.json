@@ -24,12 +24,6 @@
     "universe": "STI"
   },
   {
-    "symbol": "K6S",
-    "name": "Prudential plc",
-    "sector": "SGX stock",
-    "universe": "Popular SGX"
-  },
-  {
     "symbol": "S63",
     "name": "Singapore Technologies Engineering Ltd",
     "sector": "Industrials",
@@ -46,24 +40,6 @@
     "name": "Wilmar International Limited",
     "sector": "Consumer",
     "universe": "STI"
-  },
-  {
-    "symbol": "H78",
-    "name": "Hongkong Land Holdings Limited",
-    "sector": "Real Estate",
-    "universe": "STI"
-  },
-  {
-    "symbol": "J36",
-    "name": "Jardine Matheson Holdings Limited",
-    "sector": "Conglomerate",
-    "universe": "STI"
-  },
-  {
-    "symbol": "Q0F",
-    "name": "IHH Healthcare Berhad",
-    "sector": "SGX stock",
-    "universe": "Popular SGX"
   },
   {
     "symbol": "C6L",
@@ -150,21 +126,9 @@
     "universe": "STI"
   },
   {
-    "symbol": "5E2",
-    "name": "Seatrium Limited",
-    "sector": "Marine & Offshore",
-    "universe": "STI"
-  },
-  {
     "symbol": "N2IU",
     "name": "Mapletree Pan Asia Commercial Trust",
     "sector": "REIT",
-    "universe": "STI"
-  },
-  {
-    "symbol": "D01",
-    "name": "DFI Retail Group Holdings Limited",
-    "sector": "Retail",
     "universe": "STI"
   },
   {
@@ -198,12 +162,6 @@
     "universe": "Popular SGX"
   },
   {
-    "symbol": "EMI",
-    "name": "Emperador Inc.",
-    "sector": "SGX stock",
-    "universe": "Popular SGX"
-  },
-  {
     "symbol": "V03",
     "name": "Venture Corporation Limited",
     "sector": "Technology",
@@ -212,12 +170,6 @@
   {
     "symbol": "U06",
     "name": "Singapore Land Group Limited",
-    "sector": "SGX stock",
-    "universe": "Popular SGX"
-  },
-  {
-    "symbol": "8A8",
-    "name": "China Medical System Holdings Limited",
     "sector": "SGX stock",
     "universe": "Popular SGX"
   },
@@ -348,12 +300,6 @@
     "universe": "Popular SGX"
   },
   {
-    "symbol": "S07",
-    "name": "Shangri-La Asia Limited",
-    "sector": "SGX stock",
-    "universe": "Popular SGX"
-  },
-  {
     "symbol": "NS8U",
     "name": "Hutchison Port Holdings Trust",
     "sector": "REIT / Trust",
@@ -378,27 +324,9 @@
     "universe": "Popular SGX"
   },
   {
-    "symbol": "BVA",
-    "name": "Top Glove Corporation Bhd.",
-    "sector": "SGX stock",
-    "universe": "Popular SGX"
-  },
-  {
-    "symbol": "8YZ",
-    "name": "Yangzijiang Maritime Development Ltd.",
-    "sector": "SGX stock",
-    "universe": "Popular SGX"
-  },
-  {
     "symbol": "CC3",
     "name": "StarHub Ltd",
     "sector": "SGX stock",
-    "universe": "Popular SGX"
-  },
-  {
-    "symbol": "8C8U",
-    "name": "Centurion Accommodation REIT",
-    "sector": "REIT / Trust",
     "universe": "Popular SGX"
   },
   {
@@ -417,12 +345,6 @@
     "symbol": "AGS",
     "name": "The Hour Glass Limited",
     "sector": "SGX stock",
-    "universe": "Popular SGX"
-  },
-  {
-    "symbol": "9A4U",
-    "name": "ESR-REIT",
-    "sector": "REIT / Trust",
     "universe": "Popular SGX"
   },
   {
@@ -492,18 +414,6 @@
     "universe": "Popular SGX"
   },
   {
-    "symbol": "NTDU",
-    "name": "NTT DC REIT",
-    "sector": "REIT / Trust",
-    "universe": "Popular SGX"
-  },
-  {
-    "symbol": "PCT",
-    "name": "PC Partner Group Limited",
-    "sector": "SGX stock",
-    "universe": "Popular SGX"
-  },
-  {
     "symbol": "AP4",
     "name": "Riverstone Holdings Limited",
     "sector": "SGX stock",
@@ -536,12 +446,6 @@
   {
     "symbol": "S61",
     "name": "SBS Transit Ltd",
-    "sector": "SGX stock",
-    "universe": "Popular SGX"
-  },
-  {
-    "symbol": "STG",
-    "name": "Sri Trang Gloves (Thailand) Public Company Limited",
     "sector": "SGX stock",
     "universe": "Popular SGX"
   },
@@ -582,21 +486,9 @@
     "universe": "Popular SGX"
   },
   {
-    "symbol": "UIBU",
-    "name": "UI Boustead Real Estate Investment Trust",
-    "sector": "REIT / Trust",
-    "universe": "Popular SGX"
-  },
-  {
     "symbol": "AU8U",
     "name": "CapitaLand China Trust",
     "sector": "REIT / Trust",
-    "universe": "Popular SGX"
-  },
-  {
-    "symbol": "EH5",
-    "name": "United Overseas Australia Ltd",
-    "sector": "SGX stock",
     "universe": "Popular SGX"
   },
   {
@@ -642,12 +534,6 @@
     "universe": "Popular SGX"
   },
   {
-    "symbol": "W8W",
-    "name": "Coliwoo Holdings Limited",
-    "sector": "SGX stock",
-    "universe": "Popular SGX"
-  },
-  {
     "symbol": "P9D",
     "name": "Civmec Limited",
     "sector": "SGX stock",
@@ -663,12 +549,6 @@
     "symbol": "DCRU",
     "name": "Digital Core REIT",
     "sector": "REIT / Trust",
-    "universe": "Popular SGX"
-  },
-  {
-    "symbol": "UGS",
-    "name": "UltraGreen.ai Limited",
-    "sector": "SGX stock",
     "universe": "Popular SGX"
   },
   {
@@ -774,12 +654,6 @@
     "universe": "Popular SGX"
   },
   {
-    "symbol": "TSH",
-    "name": "TSH Resources Berhad",
-    "sector": "SGX stock",
-    "universe": "Popular SGX"
-  },
-  {
     "symbol": "MZH",
     "name": "Nanofilm Technologies International Limited",
     "sector": "SGX stock",
@@ -828,12 +702,6 @@
     "universe": "Popular SGX"
   },
   {
-    "symbol": "T15",
-    "name": "Tan Chong International Limited",
-    "sector": "SGX stock",
-    "universe": "Popular SGX"
-  },
-  {
     "symbol": "1D0",
     "name": "Kimly Limited",
     "sector": "SGX stock",
@@ -870,12 +738,6 @@
     "universe": "Popular SGX"
   },
   {
-    "symbol": "NPW",
-    "name": "Malaysia Smelting Corporation Berhad",
-    "sector": "SGX stock",
-    "universe": "Popular SGX"
-  },
-  {
     "symbol": "P34",
     "name": "Delfi Limited",
     "sector": "SGX stock",
@@ -890,12 +752,6 @@
   {
     "symbol": "BTM",
     "name": "Penguin International Limited",
-    "sector": "SGX stock",
-    "universe": "Popular SGX"
-  },
-  {
-    "symbol": "SEG",
-    "name": "Concord New Energy Group Limited",
     "sector": "SGX stock",
     "universe": "Popular SGX"
   },
@@ -966,12 +822,6 @@
     "universe": "Popular SGX"
   },
   {
-    "symbol": "ZQM",
-    "name": "Soilbuild Construction Group Ltd.",
-    "sector": "SGX stock",
-    "universe": "Popular SGX"
-  },
-  {
     "symbol": "S35",
     "name": "Sing Investments & Finance Limited",
     "sector": "SGX stock",
@@ -1002,12 +852,6 @@
     "universe": "Popular SGX"
   },
   {
-    "symbol": "STC",
-    "name": "Comba Telecom Systems Holdings Limited",
-    "sector": "SGX stock",
-    "universe": "Popular SGX"
-  },
-  {
     "symbol": "N02",
     "name": "NSL Ltd",
     "sector": "SGX stock",
@@ -1017,12 +861,6 @@
     "symbol": "S3N",
     "name": "Global Resource Construction Ltd.",
     "sector": "SGX stock",
-    "universe": "Popular SGX"
-  },
-  {
-    "symbol": "MENU",
-    "name": "Elite UK REIT",
-    "sector": "REIT / Trust",
     "universe": "Popular SGX"
   },
   {
@@ -1104,12 +942,6 @@
     "universe": "Popular SGX"
   },
   {
-    "symbol": "JCO",
-    "name": "JustCo Holdings Limited",
-    "sector": "SGX stock",
-    "universe": "Popular SGX"
-  },
-  {
     "symbol": "I07",
     "name": "ISDN Holdings Limited",
     "sector": "SGX stock",
@@ -1164,12 +996,6 @@
     "universe": "Popular SGX"
   },
   {
-    "symbol": "X5N",
-    "name": "Avarga Limited",
-    "sector": "SGX stock",
-    "universe": "Popular SGX"
-  },
-  {
     "symbol": "AWI",
     "name": "Thakral Corporation Ltd",
     "sector": "SGX stock",
@@ -1198,5 +1024,2057 @@
     "name": "Amova Straits Times Index ETF",
     "sector": "ETF",
     "universe": "Popular SGX"
+  },
+  {
+    "symbol": "LVR",
+    "name": "17Live Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1Y1",
+    "name": "9R Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BQC",
+    "name": "A-Smart Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BTJ",
+    "name": "A-Sonic Aerospace Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "533",
+    "name": "Abr Holdings Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "541",
+    "name": "Abundance International Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "QZG",
+    "name": "Accrelist Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5FW",
+    "name": "Acesian Partners Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "AYV",
+    "name": "Acma Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "43F",
+    "name": "Acrometa Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BLZ",
+    "name": "Advanced Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "43Q",
+    "name": "Advancer Global Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5EF",
+    "name": "Adventus Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "XVG",
+    "name": "Aedge Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "MIJ",
+    "name": "Alliance Healthcare Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "40V",
+    "name": "Alset International Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "S9B",
+    "name": "Amcorp Global Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "49B",
+    "name": "Amos Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "AOF",
+    "name": "Amplefield Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "Y35",
+    "name": "Anan International Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BTX",
+    "name": "Anchun International Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "A52",
+    "name": "Annaik Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1D4",
+    "name": "Aoxin Q & M Dental Grp Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5AU",
+    "name": "Ap Oil International Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "XZL",
+    "name": "Ara Us Hospitality Trust",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "AWG",
+    "name": "Ascent Bridge Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "A55",
+    "name": "Asia Enterprises Hldg Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5RE",
+    "name": "Asia Vets Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5RA",
+    "name": "Asia-Pacific Strategic Inv Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "505",
+    "name": "Asiamedic Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "585",
+    "name": "Asian Micro Holdings Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "S7OU",
+    "name": "Asian Pay Television Trust",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5WV",
+    "name": "Asiaphos Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5CR",
+    "name": "Asiatic Group (Hldgs) Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1F3",
+    "name": "Aspen (Group) Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "RCU",
+    "name": "Assurance Healthcare Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "42S",
+    "name": "Astaka Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "575",
+    "name": "Asti Holdings Limited",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5UL",
+    "name": "Atlantic Navigation Hldg (S) Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1AZ",
+    "name": "Audience Analytics Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1R6",
+    "name": "Avi-Tech Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "YYB",
+    "name": "Bacui Technologies International Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BTP",
+    "name": "Baker Technology Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "KJ5",
+    "name": "Bbr Hldgs (S) Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BEZ",
+    "name": "Beng Kuang Marine Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "9QX",
+    "name": "Beverly Jcg Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BQN",
+    "name": "Bh Global Corp Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "8YY",
+    "name": "Biolidics Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "CJN",
+    "name": "British & Malayan Hldg Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "AWC",
+    "name": "Brook Crompton Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BAC",
+    "name": "Camsing Healthcare Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "594",
+    "name": "Capallianz Holdings Limited",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1D5",
+    "name": "Capital World Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "AWV",
+    "name": "Captii Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "C04",
+    "name": "Casa Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BXE",
+    "name": "Cdw Hldg Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5EB",
+    "name": "Cfm Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "C13",
+    "name": "Ch Offshore Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5QT",
+    "name": "Charisma Energy Services Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5NV",
+    "name": "Chasen Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "C05",
+    "name": "Chemical Industries (Far East) Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BEH",
+    "name": "China International Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "P74",
+    "name": "China Kangda Food Company Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "GU5",
+    "name": "China Kunda Technology Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BHD",
+    "name": "China Mining International Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BKV",
+    "name": "China Shenshan Orchard Hldgs Co Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BCD",
+    "name": "China Yuanbang Prop Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "42E",
+    "name": "Choo Chiang Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "C33",
+    "name": "Chuan Hup Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1H3",
+    "name": "Clearbridge Health Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "N0Z",
+    "name": "Combine Will International Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "P8A",
+    "name": "Cordlife Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "C76",
+    "name": "Creative Technology Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "C06",
+    "name": "Csc Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BLR",
+    "name": "Darco Water Technologies Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "CEDU",
+    "name": "Dasin Retail Trust",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BKW",
+    "name": "Datapulse Technology Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "D03",
+    "name": "Del Monte Pacific Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BAI",
+    "name": "Digilife Technologies Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "532",
+    "name": "Disa Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "GRQ",
+    "name": "Don Agro International Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5SO",
+    "name": "Duty Free International Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5CT",
+    "name": "Ecowise Holdings Limited",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5HG",
+    "name": "Edition Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "42Z",
+    "name": "Eindec Corp Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "MXNU",
+    "name": "Elite Commercial REIT",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BIX",
+    "name": "Ellipsiz Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1C0",
+    "name": "Emerging Towns & Cities Singapore Ltd.",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "R14",
+    "name": "Eneco Energy Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "S44",
+    "name": "Engro Corp Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BQD",
+    "name": "Envictus International Hldg Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "L23",
+    "name": "Enviro-Hub Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5RC",
+    "name": "Es Group (Hldgs) Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5G1",
+    "name": "Eurosports Global Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "F10",
+    "name": "F J Benjamin Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5TJ",
+    "name": "Far East Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BDU",
+    "name": "Federal International (2000) Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5F4",
+    "name": "Figtree Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "D8DU",
+    "name": "First Ship Lease Trust",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "8A1",
+    "name": "Forise International Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "OAJ",
+    "name": "Fortress Minerals Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "F13",
+    "name": "Fu Yu Corp Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "508",
+    "name": "Fuji Offset Plates Manufacturing",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "AWK",
+    "name": "Fuxing China Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "41T",
+    "name": "Gccp Resources Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5VP",
+    "name": "Gds Global Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "XJB",
+    "name": "Ghy Culture & Media Hldg Co Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "595",
+    "name": "Gke Corporation Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "QS9",
+    "name": "Global Invacom Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "B73",
+    "name": "Global Investments Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "AYN",
+    "name": "Global Testing Corp Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5PC",
+    "name": "Goodland Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "G50",
+    "name": "Grand Banks Yachts Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "Y06",
+    "name": "Green Build Technology Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BLU",
+    "name": "Grp Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "43A",
+    "name": "Gs Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "41F",
+    "name": "Gss Energy Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5AI",
+    "name": "H2G Green Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1B1",
+    "name": "Hc Surgical Specialists Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "40B",
+    "name": "Healthbank Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5OR",
+    "name": "Heatec Jietong Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5DP",
+    "name": "Heeton Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5PD",
+    "name": "Hengyang Petrochemical Logistics Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BTG",
+    "name": "Hg Metal Manufacturing Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5GZ",
+    "name": "Hgh Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1L2",
+    "name": "Hiap Seng Industries Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5PO",
+    "name": "Hiap Tong Corp Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "AVX",
+    "name": "Hl Global Enterprises Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "J2T",
+    "name": "Hock Lian Seng Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "H20",
+    "name": "Hoe Leong Corp Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "CTO",
+    "name": "Hong Lai Huat Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BBP",
+    "name": "Hor Kew Corp Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5EV",
+    "name": "Hosen Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BLS",
+    "name": "Hotung Investment Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "41B",
+    "name": "Huationg Global Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1J5",
+    "name": "Hyphens Pharma International Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "I49",
+    "name": "Ifs Capital Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "M14",
+    "name": "Innotek Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5GI",
+    "name": "Interra Resources Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "I06",
+    "name": "Intraco Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "AZA",
+    "name": "Ipc Corp Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "42N",
+    "name": "Ips Securex Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "40T",
+    "name": "Isec Healthcare Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5WF",
+    "name": "Isoteam Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "NXR",
+    "name": "Iwow Technology Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "J03",
+    "name": "Jadason Enterprises Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5OI",
+    "name": "Japan Foods Hldg Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5PF",
+    "name": "Jason Marine Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1J7",
+    "name": "Jawala Inc",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1J4",
+    "name": "Jep Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "C8R",
+    "name": "Jiutian Chemical Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "E9L",
+    "name": "Joyas International Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "NHD",
+    "name": "Jubilee Industries Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "42R",
+    "name": "Jumbo Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "K29",
+    "name": "Karin Technology Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1A0",
+    "name": "Katrina Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BNE",
+    "name": "Kencana Agri Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5TT",
+    "name": "Keong Hong Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "CMOU",
+    "name": "Keppel Pacific Oak Us REIT",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "K03",
+    "name": "Khong Guan Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5G2",
+    "name": "Kim Heng Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "554",
+    "name": "King Wan Corporation Limited",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5MZ",
+    "name": "Kingsmen Creatives Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "504",
+    "name": "Klw Holdings Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BJZ",
+    "name": "Koda Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5HV",
+    "name": "Koh Brothers Eco Engineering Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "K75",
+    "name": "Koh Brothers Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5I1",
+    "name": "Kop Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5VC",
+    "name": "Kori Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5OC",
+    "name": "Koyo International Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "ER0",
+    "name": "Ksh Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "XCF",
+    "name": "Ktmg Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "LS9",
+    "name": "Leader Environmental Technologies Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "Q0X",
+    "name": "Ley Choon Group Hldg Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BEI",
+    "name": "Lht Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BFT",
+    "name": "Lincotrade & Associates Hldg Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BAZ",
+    "name": "Lion Asiapac Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "D5IU",
+    "name": "Lippo Malls Indonesia Retail Trust",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "PRH",
+    "name": "Livingstone Health Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "LMS",
+    "name": "Lms Compliance Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "ENV",
+    "name": "Ls 2 Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "L19",
+    "name": "Lum Chang Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5UA",
+    "name": "Luminor Financial Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BKK",
+    "name": "Luxking Group Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1H8",
+    "name": "Ly Corp Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "M11",
+    "name": "Manufacturing Integration Technology Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BTOU",
+    "name": "Manulife Us REIT",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5OX",
+    "name": "Mary Chia Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "M15",
+    "name": "Matex International Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "Y3D",
+    "name": "Mdr Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "Z4D",
+    "name": "Medi Lifestyle Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "OTX",
+    "name": "Medinex Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "546",
+    "name": "Medtecs International Corp Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5DS",
+    "name": "Megachem Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "SJY",
+    "name": "Megroup Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "TWL",
+    "name": "Memiontec Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5NF",
+    "name": "Mencast Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "DU4",
+    "name": "Mermaid Maritime Public Co Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5DX",
+    "name": "Meta Health Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "V3M",
+    "name": "Metech International Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "L02",
+    "name": "Metis Energy Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "CNE",
+    "name": "Mindchamps Preschool Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "M03",
+    "name": "Miyoshi Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1B0",
+    "name": "Mm2 Asia Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1V3",
+    "name": "Mooreast Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "M05",
+    "name": "Mtq Corp Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "MF6",
+    "name": "Mun Siong Engineering Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "F86",
+    "name": "Myp Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "G0I",
+    "name": "Nam Lee Pressed Metal Industries Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5IF",
+    "name": "Natural Cool Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "N01",
+    "name": "Nera Telecommunications Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5QY",
+    "name": "Net Pacific Financial Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "N08",
+    "name": "New Toyo International Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5FX",
+    "name": "New Wave Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "N32",
+    "name": "Nippecraft Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "543",
+    "name": "Noel Gifts International Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "SEJ",
+    "name": "Noontalk Media Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "MR7",
+    "name": "Nordic Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1B6",
+    "name": "Ocean Sky International Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "579",
+    "name": "Oceanus Group Limited",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "584",
+    "name": "Oel (Holdings) Limited",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "KUX",
+    "name": "Oio Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5ML",
+    "name": "Old Chang Kee Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1H2",
+    "name": "Olive Tree Estates Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5SY",
+    "name": "Oneapex Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "O08",
+    "name": "Ossia International Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "OTS",
+    "name": "Ots Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5WA",
+    "name": "Oue Healthcare Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "AJ2",
+    "name": "Ouhua Energy Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "RQ1",
+    "name": "Overseas Education Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "TVV",
+    "name": "Oxpay Financial Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "RXS",
+    "name": "Pacific Radiance Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "T8V",
+    "name": "Pacific Radiance Ltd.",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "P36",
+    "name": "Pan Hong Hldgs Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "O9E",
+    "name": "Parkson Retail Asia Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "UUK",
+    "name": "Pasture Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "596",
+    "name": "Pavillon Holdings Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BFK",
+    "name": "Pharmesis International Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BDA",
+    "name": "Pne Industries Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5BI",
+    "name": "Polaris Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5AE",
+    "name": "Pollux Properties Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BCY",
+    "name": "Powermatic Data Systems Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "583",
+    "name": "Progen Holdings Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5HH",
+    "name": "Prospera Global Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "PPC",
+    "name": "Prospercap Corp Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BCV",
+    "name": "Qian Hu Corp Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "V8Y",
+    "name": "Quantum Healthcare Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "NR7",
+    "name": "Raffles Education Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "NEX",
+    "name": "Reclaims Global Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "I11",
+    "name": "Renaissance United Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "V7R",
+    "name": "Resources Global Development Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5WH",
+    "name": "Rex International Hldg Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "T13",
+    "name": "Rh Petrogas Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5DO",
+    "name": "Sakae Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "FQ7",
+    "name": "Salt Investments Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "E6R",
+    "name": "Samko Timber Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "Y8E",
+    "name": "Samurai 2K Aerosol Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1E3",
+    "name": "Sanli Environmental Limited",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "580",
+    "name": "Santak Holdings Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BRD",
+    "name": "Sapphire Corp Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "U77",
+    "name": "Sarine Technologies Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "43B",
+    "name": "Secura Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "XHV",
+    "name": "Serial Achieva Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "S69",
+    "name": "Serial System Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5EW",
+    "name": "Sevens Atelier Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "SES",
+    "name": "Shanaya Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "AWM",
+    "name": "Shanghai Turbo Enterprises Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "SGR",
+    "name": "Sheffield Green Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1F0",
+    "name": "Shopper360 Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "566",
+    "name": "Shs Holdings Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "URR",
+    "name": "Sim Leisure Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BKA",
+    "name": "Sin Heng Heavy Machinery Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5IC",
+    "name": "Sing Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "9G2",
+    "name": "Singapore Institute Of Advanced Medicine Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "FRQ",
+    "name": "Singapore Paincare Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "S19",
+    "name": "Singapore Shipping Corp Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "S23",
+    "name": "Singapura Finance Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "LYY",
+    "name": "Sinocloud Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "C9Q",
+    "name": "Sinostar Pec Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5LE",
+    "name": "Sitra Hldgs (International) Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5MD",
+    "name": "Soon Lian Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5KI",
+    "name": "Soup Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "A33",
+    "name": "Southern Archipelago Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BQP",
+    "name": "Southern Packaging Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "DRX",
+    "name": "St Group Food Ind Hldg Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "S29",
+    "name": "Stamford Tyres Corp Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "AAJ",
+    "name": "Sunmoon Food Company Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "S71",
+    "name": "Sunright Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "581",
+    "name": "Sunrise Shares Holdings Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BKZ",
+    "name": "Suntar Eco-City Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BHU",
+    "name": "Sutl Enterprise Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "PA3",
+    "name": "Ta Corporation Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "42L",
+    "name": "Taka Jewellery Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "T12",
+    "name": "Tat Seng Packaging Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "T43",
+    "name": "Techcomp (Hldgs) Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5OQ",
+    "name": "Teho International Inc Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "T41",
+    "name": "Telechoice International Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "E27",
+    "name": "The Place Holdings Limited",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "42T",
+    "name": "The Trendlines Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "T55",
+    "name": "Tih Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BFI",
+    "name": "Tiong Seng Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BQM",
+    "name": "Tiong Woon Corp Hldg Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "42F",
+    "name": "Totm Technologies Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "VI2",
+    "name": "Trans-China Automotive Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "570",
+    "name": "Transit-Mixed Concrete Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BCZ",
+    "name": "Travelite Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5AB",
+    "name": "Trek 2000 International Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "CYW",
+    "name": "Tricklestar Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5G9",
+    "name": "Tritech Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "KUH",
+    "name": "Tsh Corp Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "540",
+    "name": "Tung Lok Restaurants (2000) Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BFU",
+    "name": "Tye Soon Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "8K7",
+    "name": "Ug Healthcare Corp Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "CHJ",
+    "name": "Uni-Asia Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1F2",
+    "name": "Union Gas Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "ZB9",
+    "name": "Union Steel Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1D1",
+    "name": "Unusual Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BRS",
+    "name": "Usp Group Limited",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "V2Y",
+    "name": "V2Y Corporation Ltd.",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "WPC",
+    "name": "Vallianz Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "43E",
+    "name": "Vcplus Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "40N",
+    "name": "Versalink Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BIP",
+    "name": "Vibrant Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BJD",
+    "name": "Vibropower Corp Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "569",
+    "name": "Vicplas International Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "OMK",
+    "name": "Vividthree Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BDR",
+    "name": "Willas-Array Elec (Hldgs) Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5F7",
+    "name": "Wilton Resources Corp Limited",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "WKS",
+    "name": "Winking Studios Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1A1",
+    "name": "Wong Fong Industries Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "B49",
+    "name": "World Precision Machinery Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "1F1",
+    "name": "Y Ventures Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BJV",
+    "name": "Yamada Green Resources Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BPF",
+    "name": "Yhi International Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5DM",
+    "name": "Ying Li International Real Estate Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "YK9",
+    "name": "Ykgi Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "Z59",
+    "name": "Yoma Strategic Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "BKX",
+    "name": "Yongmao Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5SR",
+    "name": "Zhongmin Baihui Retail Group Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "5EG",
+    "name": "Zhongxin Fruit And Juice Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "40W",
+    "name": "Zico Hldgs Inc",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
+  },
+  {
+    "symbol": "42W",
+    "name": "Zixin Group Hldgs Ltd",
+    "sector": "SGX-listed",
+    "universe": "SGX share counter"
   }
 ]

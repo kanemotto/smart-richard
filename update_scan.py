@@ -4,6 +4,7 @@ The browser still performs no analysis: this separate scanner writes the same JS
 presentation contract consumed by app.js. It is a rules-based aid, not advice.
 """
 
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
 from statistics import fmean
@@ -103,6 +104,7 @@ def metrics_for(bars):
         "sma20": fmean(closes[-20:]),
         "sma20_previous": fmean(closes[-25:-5]),
         "sma50": fmean(closes[-50:]),
+        "sma50_previous": fmean(closes[-55:-5]),
         "close_5_days_ago": closes[-6],
         "rsi": rsi(closes),
         "volume_ratio": volumes[-1] / average_volume,
@@ -197,6 +199,31 @@ def stock_decision(stock, bars, meta, market_score):
     score = max(0, min(100, round(score)))
     signal = "BUY WATCH" if score >= 75 else "WAIT" if score >= 55 else "AVOID"
 
+    # This is intentionally separate from BUY WATCH.  It looks for an early
+    # improvement after a weak phase; it does not claim that an uptrend is
+    # established or that the reversal will succeed.
+    was_in_downtrend = (
+        metrics["sma20_previous"] < metrics["sma50_previous"]
+        and metrics["close_5_days_ago"] < metrics["sma20_previous"]
+    )
+    short_trend_improving = metrics["sma20"] > metrics["sma20_previous"]
+    weekly_price_improving = metrics["close"] > metrics["close_5_days_ago"]
+    near_or_above_short_trend = metrics["close"] >= metrics["sma20"] * 0.99
+    momentum_recovering = 42 <= metrics["rsi"] <= 68
+    turnaround = all((
+        was_in_downtrend,
+        short_trend_improving,
+        weekly_price_improving,
+        near_or_above_short_trend,
+        momentum_recovering,
+    ))
+    turnaround_reasons = [
+        "It was recently trading below its longer trend",
+        "Its 20-day trend has started to improve",
+        "The price is stronger than it was one week ago",
+        "Momentum has recovered into a healthier range",
+    ] if turnaround else []
+
     caution_fallbacks = [
         "Wait for a clearer entry",
         "Do not chase a sudden jump",
@@ -241,6 +268,8 @@ def stock_decision(stock, bars, meta, market_score):
         "score": score,
         "stars": max(1, min(5, round(score / 20))),
         "signal": signal,
+        "turnaround": turnaround,
+        "turnaroundReasons": turnaround_reasons,
         "price": round(latest, 4),
         "changePercent": round(change_percent, 2),
         "currency": currency,
@@ -268,18 +297,26 @@ def main():
     market_score = round(market_score_100 / 10, 1)
     market_signal = "Bullish" if market_score >= 6.5 else "Mixed" if market_score >= 4.5 else "Bearish"
 
-    decisions = []
+    decisions_by_symbol = {}
     failures = []
-    for index, stock in enumerate(directory, start=1):
-        print(f"[{index:02d}/{len(directory)}] {stock['name']}")
-        try:
-            bars, meta = fetch_chart(stock["symbol"])
-            decisions.append(stock_decision(stock, bars, meta, market_score_100))
-        except Exception as error:
-            failures.append({"symbol": stock["symbol"], "reason": str(error)})
-            if stock["symbol"] in previous_by_symbol:
-                decisions.append(previous_by_symbol[stock["symbol"]])
-        time.sleep(0.18)
+
+    def refresh_one(stock):
+        bars, meta = fetch_chart(stock["symbol"])
+        return stock_decision(stock, bars, meta, market_score_100)
+
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        futures = {executor.submit(refresh_one, stock): stock for stock in directory}
+        for index, future in enumerate(as_completed(futures), start=1):
+            stock = futures[future]
+            print(f"[{index:03d}/{len(directory)}] {stock['name']}")
+            try:
+                decisions_by_symbol[stock["symbol"]] = future.result()
+            except Exception as error:
+                failures.append({"symbol": stock["symbol"], "reason": str(error)})
+                if stock["symbol"] in previous_by_symbol:
+                    decisions_by_symbol[stock["symbol"]] = previous_by_symbol[stock["symbol"]]
+
+    decisions = [decisions_by_symbol[stock["symbol"]] for stock in directory if stock["symbol"] in decisions_by_symbol]
 
     if not decisions:
         raise RuntimeError("No market data could be refreshed; the previous scan was kept.")
@@ -288,6 +325,7 @@ def main():
         "buy": sum(stock["signal"] == "BUY WATCH" for stock in decisions),
         "wait": sum(stock["signal"] == "WAIT" for stock in decisions),
         "avoid": sum(stock["signal"] == "AVOID" for stock in decisions),
+        "turnaround": sum(bool(stock.get("turnaround")) for stock in decisions),
     }
     now = datetime.now(ZoneInfo("Asia/Singapore"))
     result = {
@@ -299,7 +337,7 @@ def main():
         "market": {"score": market_score, "signal": market_signal, **counts},
         "stocks": decisions,
         "refreshFailures": failures,
-        "method": "Rules based on daily price direction, momentum, trading activity and the wider STI trend."
+        "method": "Rules based on daily price direction, momentum, trading activity and the wider STI trend. Possible turnaround is a separate early-warning flag, not a forecast."
     }
 
     temporary = SCAN_FILE.with_suffix(".json.tmp")

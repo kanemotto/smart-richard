@@ -13,6 +13,8 @@
   --amber-soft: #fff0d3;
   --red: #e4483f;
   --red-soft: #ffe4e1;
+  --blue: #3478d4;
+  --blue-soft: #e2efff;
   --radius-xl: 30px;
   --radius-lg: 22px;
   --radius-md: 16px;
@@ -30,6 +32,7 @@
   --green-soft: #123d29;
   --amber-soft: #46320e;
   --red-soft: #47211f;
+  --blue-soft: #182f4d;
 }
 
 * { box-sizing: border-box; }
@@ -213,7 +216,7 @@ h1 {
 
 .decision-counts {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 16px;
   margin-top: 18px;
 }
@@ -234,6 +237,7 @@ h1 {
 .count-card.buy { background: var(--green-soft); color: var(--green); }
 .count-card.wait { background: var(--amber-soft); color: var(--amber); }
 .count-card.avoid { background: var(--red-soft); color: var(--red); }
+.count-card.turnaround { background: var(--blue-soft); color: var(--blue); }
 
 .watchlist-section { padding: 58px 0 28px; }
 .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 24px; }
@@ -363,12 +367,13 @@ h1 {
 .detail-chart.up polyline { stroke: var(--green); }
 .mini-chart.up circle,
 .detail-chart.up circle { fill: var(--green); }
-.entry-zone { margin-top: 17px; padding: 13px 15px; border-left: 4px solid var(--green); border-radius: 12px; background: var(--green-soft); color: var(--green); }
-.entry-zone span,
-.entry-zone small { display: block; }
-.entry-zone span { font-size: 11px; font-weight: 850; letter-spacing: 0.06em; text-transform: uppercase; }
-.entry-zone strong { display: block; margin-top: 2px; font-size: 22px; line-height: 1.15; }
-.entry-zone small { margin-top: 3px; font-size: 12px; font-weight: 680; }
+.turnaround-badge { align-self: flex-start; margin-top: 12px; padding: 6px 9px; border-radius: 999px; background: var(--blue-soft); color: var(--blue); font-size: 12px; font-weight: 820; }
+.trade-preview { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 14px; margin-top: 17px; padding: 13px 15px; border-left: 4px solid var(--green); border-radius: 12px; background: var(--green-soft); color: var(--green); }
+.trade-preview span,
+.trade-preview small { display: block; }
+.trade-preview span { font-size: 10px; font-weight: 850; letter-spacing: 0.06em; text-transform: uppercase; }
+.trade-preview strong { display: block; margin-top: 2px; font-size: 19px; line-height: 1.15; }
+.trade-preview small { grid-column: 1 / -1; font-size: 11px; font-weight: 680; }
 .card-bottom { display: flex; align-items: end; justify-content: space-between; gap: 14px; margin-top: auto; padding-top: 24px; }
 .stock-score { font-size: 38px; line-height: 1; font-weight: 820; letter-spacing: -0.05em; }
 .stock-score small { color: var(--muted); font-size: 15px; letter-spacing: 0; }
@@ -470,16 +475,27 @@ dialog::backdrop { background: rgba(12, 14, 11, 0.54); backdrop-filter: blur(9px
 .plan-card span { display: block; color: var(--muted); font-size: 14px; font-weight: 700; }
 .plan-card strong { display: block; margin-top: 4px; font-size: 25px; }
 .eli5 { margin: 0; padding: 20px; border-radius: 16px; background: var(--bg); font-size: 19px; line-height: 1.55; }
+.turnaround-panel { margin-top: 22px; padding: 20px; border: 1px solid color-mix(in srgb, var(--blue) 28%, transparent); border-radius: 18px; background: var(--blue-soft); color: var(--blue); }
+.turnaround-panel > strong { font-size: 19px; }
+.turnaround-panel p { margin: 7px 0 10px; color: var(--text); }
+.turnaround-panel ul { margin: 0 0 10px; padding-left: 20px; color: var(--text); font-size: 15px; }
+.turnaround-panel small { display: block; font-weight: 700; }
 
 .add-dialog { align-content: center; }
 .add-sheet { width: min(580px, calc(100% - 28px)); max-height: min(720px, calc(100vh - 34px)); margin: 17px auto; padding: 30px; overflow-y: auto; border-radius: 28px; background: var(--surface); box-shadow: 0 30px 90px rgba(0, 0, 0, 0.28); }
 .dialog-title-row { display: flex; justify-content: space-between; align-items: start; gap: 20px; }
 .add-search { width: 100%; margin: 24px 0 14px; }
 .add-helper { margin: 10px 0 0; color: var(--muted); font-size: 15px; }
+.directory-tools { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 0 8px; }
+.directory-count { margin: 0; color: var(--muted); font-size: 13px; font-weight: 750; }
+.turnaround-toggle { min-height: 36px; padding: 7px 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--blue); font-size: 12px; font-weight: 820; cursor: pointer; }
+.turnaround-toggle.active { border-color: transparent; background: var(--blue-soft); }
+.turnaround-helper { margin: 0 0 12px; color: var(--muted); font-size: 12px; }
 .directory-list { display: grid; gap: 8px; }
 .directory-item { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px; border: 1px solid var(--line); border-radius: 14px; }
 .directory-item strong { display: block; }
 .directory-item small { color: var(--muted); }
+.directory-turnaround { display: inline-block; margin-top: 6px; padding: 4px 7px; border-radius: 999px; background: var(--blue-soft); color: var(--blue); font-size: 11px; font-weight: 820; }
 .directory-item button { flex: 0 0 auto; min-width: 76px; min-height: 40px; border: 0; border-radius: 11px; background: var(--green-soft); color: var(--green); font-size: 14px; font-weight: 800; cursor: pointer; }
 .directory-item button:disabled { background: var(--bg); color: var(--muted); cursor: default; }
 
@@ -518,7 +534,7 @@ dialog::backdrop { background: rgba(12, 14, 11, 0.54); backdrop-filter: blur(9px
   .icon-button { width: 42px; height: 42px; }
   .market-overview { min-height: 290px; align-items: flex-start; padding: 28px 24px; }
   .signal-orb { position: absolute; right: -42px; bottom: -55px; width: 190px; opacity: 0.72; }
-  .decision-counts { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .decision-counts { grid-template-columns: repeat(2, 1fr); gap: 8px; }
   .count-card { min-height: 112px; padding: 16px 12px; border-radius: 17px; }
   .count-card span { font-size: 12px; }
   .count-card strong { font-size: 42px; }
